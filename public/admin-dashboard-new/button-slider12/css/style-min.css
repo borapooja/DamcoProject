@@ -1,0 +1,4828 @@
+html {
+    font-size: 100%;
+    line-height: 1.5em
+}
+
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+body {
+    margin: 0
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup,
+main, menu, nav, section, summary {
+    display: block
+}
+
+audio, canvas, progress, video {
+    display: inline-block;
+    vertical-align: baseline
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0
+}
+
+[hidden] {
+    display: none
+}
+
+template {
+    display: none
+}
+
+a {
+    background-color: transparent
+}
+
+a:active, a:hover {
+    outline: 0
+}
+
+abbr[title] {
+    border-bottom: 1px dotted
+}
+
+b, strong {
+    font-weight: bold
+}
+
+blockquote {
+    margin: 1.5em 40px
+}
+
+dfn {
+    font-style: italic
+}
+
+h1 {
+    font-size: 2em;
+    line-height: 1.5em;
+    margin-top: 0.75em;
+    margin-bottom: 0.75em
+}
+
+h2 {
+    font-size: 1.5em;
+    line-height: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em
+}
+
+h3 {
+    font-size: 1.17em;
+    line-height: 1.28205em;
+    margin-top: 1.28205em;
+    margin-bottom: 1.28205em
+}
+
+h4 {
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em
+}
+
+h5 {
+    font-size: 0.83em;
+    line-height: 1.80723em;
+    margin-top: 1.80723em;
+    margin-bottom: 1.80723em
+}
+
+h6 {
+    font-size: 0.67em;
+    line-height: 2.23881em;
+    margin-top: 2.23881em;
+    margin-bottom: 2.23881em
+}
+
+mark {
+    background: #ff0;
+    color: #000
+}
+
+p, pre {
+    margin: 1.5em 0
+}
+
+small {
+    font-size: 80%
+}
+
+sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+sup {
+    top: -0.5em
+}
+
+sub {
+    bottom: -0.25em
+}
+
+dl, menu, ol, ul {
+    margin: 1.5em 0
+}
+
+dd {
+    margin: 0 0 0 40px
+}
+
+menu, ol, ul {
+    padding: 0 0 0 40px
+}
+
+nav ul, nav ol {
+    list-style: none;
+    list-style-image: none
+}
+
+img {
+    border: 0;
+    -ms-interpolation-mode: bicubic
+}
+
+svg:not(:root) {
+    overflow: hidden
+}
+
+figure {
+    margin: 1.5em 40px
+}
+
+hr {
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 0
+}
+
+pre {
+    overflow: auto
+}
+
+code, kbd, pre, samp {
+    font-family: monospace, monospace;
+    font-size: 1em
+}
+
+form {
+    margin: 0
+}
+
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+
+button {
+    overflow: visible
+}
+
+button, select {
+    text-transform: none
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+
+button[disabled], html input[disabled] {
+    cursor: default
+}
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+    border: 0;
+    padding: 0
+}
+
+input {
+    line-height: normal
+}
+
+input[type="checkbox"], input[type="radio"] {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button {
+    height: auto
+}
+
+input[type="search"] {
+    -webkit-appearance: textfield;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+
+fieldset {
+    margin: 0 2px;
+    border-color: #c0c0c0;
+    border-top-width: 0.0625em;
+    border-top-style: solid;
+    padding-top: 0.4625em;
+    border-bottom-width: 0.0625em;
+    border-bottom-style: solid;
+    padding-bottom: 0.9125em;
+    border-left-width: 0.0625em;
+    border-left-style: solid;
+    padding-left: 0.875em;
+    border-right-width: 0.0625em;
+    border-right-style: solid;
+    padding-right: 0.875em
+}
+
+legend {
+    border: 0;
+    padding: 0;
+}
+
+textarea {
+    overflow: auto
+}
+
+optgroup {
+    font-weight: bold
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+td, th {
+    padding: 0
+}
+
+body {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    color: #626262
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    margin: 0;
+    line-height: normal;
+    color: #666
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    text-decoration: none
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 36px;
+    margin: 50px 0;
+    text-align: center
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #FF9E1B
+}
+
+h3 {
+    font-weight: 300;
+    font-size: 26px;
+    margin: 10px 0 5px
+}
+
+h4 {
+    color: #FF9E1B;
+    font-size: 18px;
+    font-weight: 300
+}
+
+h5 {
+    font-size: 18px;
+    color: #aaa;
+    font-weight: 400;
+    margin: 20px 0 0px
+}
+
+ol, ul {
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 13px;
+    color: #333;
+    list-style: initial;
+    margin: 10px 0 10px 20px;
+    padding: 0
+}
+
+.main-article ol, .main-article ul {
+    line-height: 1.4em;
+    color: #505050;
+    font-size: 16px
+}
+
+.main-article ol li + li, .main-article ul li + li {
+    margin-top: 10px
+}
+
+p {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    margin: 0;
+    line-height: 1.6em;
+    font-size: 1.0em;
+    color: #505050;
+    font-weight: 400
+}
+
+p + p {
+    margin-top: 10px
+}
+
+b, strong {
+    font-weight: 700
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 30px 0
+}
+
+code, pre {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1em;
+    border-radius: 3px;
+    font-family: monospace, serif;
+    font-size: .9em;
+    background: #f9f9f9;
+    border: 1px solid #ddd
+}
+
+code {
+    padding: 2px 3px 1px
+}
+
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    line-height: 1.6em;
+    padding: 15px 20px
+}
+
+a {
+    color: #FF9E1B;
+    cursor: pointer;
+    text-decoration: none
+}
+
+a:hover {
+    color: #772583
+}
+
+a:active {
+    color: #772583
+}
+
+a[disabled], a.is-disabled {
+    color: #8bc4ea
+}
+
+a:focus {
+    outline: none
+}
+
+a {
+    cursor: pointer
+}
+
+.text-primary, .text-highlight-primary {
+    color: #FF9E1B !important
+}
+
+.text-primary .icon, .text-highlight-primary .icon {
+    color: #FF9E1B !important
+}
+
+.text-success, .text-highlight-success {
+    color: #7cb342 !important
+}
+
+.text-success .icon, .text-highlight-success .icon {
+    color: #7cb342 !important
+}
+
+.text-warning, .text-highlight-warning {
+    color: #ffa726 !important
+}
+
+.text-warning .icon, .text-highlight-warning .icon {
+    color: #ffa726 !important
+}
+
+.text-error, .text-highlight-error {
+    color: #f06748 !important
+}
+
+.text-error .icon, .text-highlight-error .icon {
+    color: #f06748 !important
+}
+
+.text-highlight-primary {
+    background-color: #eaf4fb;
+    padding-left: 3px;
+    padding-right: 3px
+}
+
+.text-highlight-success {
+    background-color: #d7e9c4;
+    padding-left: 3px;
+    padding-right: 3px
+}
+
+.text-highlight-warning {
+    background-color: #ffe5bf;
+    padding-left: 3px;
+    padding-right: 3px
+}
+
+.text-highlight-error {
+    background-color: #fcdcd5;
+    padding-left: 3px;
+    padding-right: 3px
+}
+
+/*
+.general-intro h1 {
+    text-align: center;
+    line-height: 50px
+}
+
+.general-intro .intro-content {
+    margin: 40px auto;
+    text-align: center;
+    width: 80%;
+    font-size: 1.3em;
+    line-height: 1.8em
+}
+
+.general-intro .intro-content.l-multi-column {
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;
+    -moz-column-gap: 50px;
+    -webkit-column-gap: 50px;
+    column-gap: 50px;
+    margin: 0;
+    text-align: justify;
+    width: 100%;
+    font-size: 1.0em;
+    line-height: 1.6em
+}
+
+@media (max-width: 480px) {
+    .general-intro .intro-content.l-multi-column {
+        -moz-column-count: 1;
+        -webkit-column-count: 1;
+        column-count: 1;
+        -moz-column-gap: 0;
+        -webkit-column-gap: 0;
+        column-gap: 0
+    }
+}
+
+.general-intro .intro-content p {
+    color: #666666;
+    font-weight: 400;
+    margin: 0
+}
+
+.general-intro .intro-content p + p {
+    margin-top: 10px
+}
+*/
+
+input[disabled] + label {
+    color: #999
+}
+
+input[type="text"], input[type="password"], input[type="email"],
+input[type="tel"], input[type="number"], input[type="url"], input[type="search"],
+textarea, select {
+    -moz-transition: border-color 100ms ease-in-out;
+    -o-transition: border-color 100ms ease-in-out;
+    -webkit-transition: border-color 100ms ease-in-out;
+    transition: border-color 100ms ease-in-out;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    border: 1px solid #ddd;
+    padding: 8px 10px;
+    background: #fff;
+    color: #333;
+    width: 100%;
+    min-height: 34px
+}
+
+input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus,
+input[type="tel"]:focus, input[type="number"]:focus, input[type="url"]:focus,
+input[type="search"]:focus, textarea:focus, select:focus {
+    border-color: #c4c4c4;
+    outline: none
+}
+
+input[type="text"]:disabled, input[type="password"]:disabled,
+input[type="email"]:disabled, input[type="tel"]:disabled, input[type="number"]:disabled,
+input[type="url"]:disabled, input[type="search"]:disabled, textarea:disabled,
+select:disabled {
+    color: #999;
+    border-color: #efefef
+}
+
+input[type="text"].has-error, input[type="text"].has-error:focus,
+input[type="password"].has-error, input[type="password"].has-error:focus,
+input[type="email"].has-error, input[type="email"].has-error:focus,
+input[type="tel"].has-error, input[type="tel"].has-error:focus,
+input[type="number"].has-error, input[type="number"].has-error:focus,
+input[type="url"].has-error, input[type="url"].has-error:focus,
+input[type="search"].has-error, input[type="search"].has-error:focus,
+textarea.has-error, textarea.has-error:focus, select.has-error,
+select.has-error:focus {
+    border-color: #f06748;
+    color: #f06748
+}
+
+input[type="checkbox"], input[type="radio"] {
+    float: left;
+    margin: 4px 5px 0 0
+}
+
+input[type="checkbox"] + label, input[type="radio"] + label {
+    float: left;
+    padding: 0;
+    margin: 0;
+    line-height: normal
+}
+
+textarea {
+    line-height: 20px;
+    resize: vertical
+}
+
+select {
+    padding: 7px 5px
+}
+
+.control-group {
+    min-height: 30px;
+    margin-top: 10px
+}
+
+.control-label label {
+    display: block;
+    margin: 0 0 3px
+}
+
+.controls {
+    position: relative
+}
+
+.controls input + input {
+    margin-top: 10px
+}
+
+.controls .row {
+    margin-left: -10px
+}
+
+.controls .row + .row [class * ='col-'] {
+    margin-top: 10px
+}
+
+.controls [class * ='col-'] {
+    padding-left: 10px
+}
+
+.controls label {
+    display: block
+}
+
+label {
+    margin: 5px;
+    display: inline-block
+}
+
+label input {
+    margin-right: 3px
+}
+
+label.has-error {
+    color: #f06748;
+    font-size: .85em;
+    padding: 0;
+    margin: 0
+}
+
+.help {
+    color: #999999;
+    font-size: .85em;
+    line-height: 1.4em;
+    display: block;
+    margin: 0;
+    text-align: left
+}
+
+.btn {
+    -moz-transition: all 0.08ms ease-in;
+    -o-transition: all 0.08ms ease-in;
+    -webkit-transition: all 0.08ms ease-in;
+    transition: all 0.08ms ease-in;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 6px 20px;
+    border: 0;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+    cursor: pointer;
+    background: #FF9E1B;
+    color: #fff
+}
+
+.l-align-center .btn, .l-align-center .newsletter-subscribe .newsletter-submit,
+.newsletter-subscribe .l-align-center .newsletter-submit, .l-align-center .form-newsletter-signup .newsletter-submit,
+.form-newsletter-signup .l-align-center .newsletter-submit {
+    display: inline-block;
+    margin-left: 40px
+}
+
+.l-align-center .btn:first-child, .l-align-center .newsletter-subscribe .newsletter-submit:first-child,
+.newsletter-subscribe .l-align-center .newsletter-submit:first-child,
+.l-align-center .form-newsletter-signup .newsletter-submit:first-child,
+.form-newsletter-signup .l-align-center .newsletter-submit:first-child {
+    margin-left: 0
+}
+
+@media (max-width: 768px) {
+    .l-align-center .btn, .l-align-center .newsletter-subscribe .newsletter-submit,
+    .newsletter-subscribe .l-align-center .newsletter-submit, .l-align-center .form-newsletter-signup .newsletter-submit,
+    .form-newsletter-signup .l-align-center .newsletter-submit {
+        margin-left: 0
+    }
+}
+
+.btn .icon.l-left, .newsletter-subscribe .newsletter-submit .icon.l-left,
+.form-newsletter-signup .newsletter-submit .icon.l-left {
+    margin: 3px 7px 0 -3px
+}
+
+.btn .icon.l-right, .newsletter-subscribe .newsletter-submit .icon.l-right,
+.form-newsletter-signup .newsletter-submit .icon.l-right {
+    margin: 2px -3px 0 7px
+}
+
+.btn.btn-sm, .newsletter-subscribe .btn-sm.newsletter-submit, .form-newsletter-signup .btn-sm.newsletter-submit {
+    padding: 6px 15px;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: normal
+}
+
+.btn.btn-sm .icon.l-left, .newsletter-subscribe .btn-sm.newsletter-submit .icon.l-left,
+.form-newsletter-signup .btn-sm.newsletter-submit .icon.l-left {
+    margin: 1px 6px 0 0
+}
+
+.btn.btn-sm .icon.l-right, .newsletter-subscribe .btn-sm.newsletter-submit .icon.l-right,
+.form-newsletter-signup .btn-sm.newsletter-submit .icon.l-right {
+    margin: 1px 0 0 6px
+}
+
+.btn.btn-lg, .newsletter-subscribe .btn-lg.newsletter-submit, .form-newsletter-signup .btn-lg.newsletter-submit {
+    padding: 10px 25px;
+    font-size: 15px
+}
+
+.btn.btn-lg .icon.l-left, .newsletter-subscribe .btn-lg.newsletter-submit .icon.l-left,
+.form-newsletter-signup .btn-lg.newsletter-submit .icon.l-left {
+    margin: 2px 10px 0 -3px
+}
+
+.btn.btn-lg .icon.l-right, .newsletter-subscribe .btn-lg.newsletter-submit .icon.l-right,
+.form-newsletter-signup .btn-lg.newsletter-submit .icon.l-right {
+    margin: 3px -3px 0 10px
+}
+
+.btn:hover, .newsletter-subscribe .newsletter-submit:hover, .form-newsletter-signup .newsletter-submit:hover {
+    background: #a5a5a5
+}
+
+.btn:active, .newsletter-subscribe .newsletter-submit:active, .form-newsletter-signup .newsletter-submit:active {
+    background: #a0a0a0
+}
+
+.btn[disabled], .newsletter-subscribe [disabled].newsletter-submit,
+.form-newsletter-signup [disabled].newsletter-submit, .btn.is-disabled,
+.newsletter-subscribe .is-disabled.newsletter-submit, .form-newsletter-signup .is-disabled.newsletter-submit {
+    cursor: default;
+    border-color: #e5e5e5;
+    background: #f9f9f9;
+    color: #bbb
+}
+
+.btn.btn-primary, .newsletter-subscribe .newsletter-submit, .form-newsletter-signup .newsletter-submit {
+    border-color: #FF9E1B;
+    background: #FF9E1B
+}
+
+.btn.btn-primary, .newsletter-subscribe .newsletter-submit, .form-newsletter-signup .newsletter-submit,
+.btn.btn-primary .icon, .newsletter-subscribe .newsletter-submit .icon,
+.form-newsletter-signup .newsletter-submit .icon {
+    color: white
+}
+
+.btn.btn-primary:hover, .newsletter-subscribe .newsletter-submit:hover,
+.form-newsletter-signup .newsletter-submit:hover {
+    border-color: #109fff;
+    background: #109fff
+}
+
+.btn.btn-primary:active, .newsletter-subscribe .newsletter-submit:active,
+.form-newsletter-signup .newsletter-submit:active {
+    border-color: #2386c8;
+    background: #2386c8
+}
+
+.btn.btn-primary[disabled], .newsletter-subscribe [disabled].newsletter-submit,
+.form-newsletter-signup [disabled].newsletter-submit, .btn.btn-primary.is-disabled,
+.newsletter-subscribe .is-disabled.newsletter-submit, .form-newsletter-signup .is-disabled.newsletter-submit {
+    border-color: #8bc4ea;
+    background: #8bc4ea;
+    color: #e1f0fa
+}
+
+.btn.btn-success, .newsletter-subscribe .btn-success.newsletter-submit,
+.form-newsletter-signup .btn-success.newsletter-submit {
+    border-color: #7cb342;
+    background: #7cb342
+}
+
+.btn.btn-success, .newsletter-subscribe .btn-success.newsletter-submit,
+.form-newsletter-signup .btn-success.newsletter-submit, .btn.btn-success .icon,
+.newsletter-subscribe .btn-success.newsletter-submit .icon, .form-newsletter-signup .btn-success.newsletter-submit .icon {
+    color: white
+}
+
+.btn.btn-success:hover, .newsletter-subscribe .btn-success.newsletter-submit:hover,
+.form-newsletter-signup .btn-success.newsletter-submit:hover {
+    border-color: #7cbf36;
+    background: #7cbf36
+}
+
+.btn.btn-success:active, .newsletter-subscribe .btn-success.newsletter-submit:active,
+.form-newsletter-signup .btn-success.newsletter-submit:active {
+    border-color: #6a9938;
+    background: #6a9938
+}
+
+.btn.btn-success[disabled], .newsletter-subscribe .btn-success[disabled].newsletter-submit,
+.form-newsletter-signup .btn-success[disabled].newsletter-submit,
+.btn.btn-success.is-disabled, .newsletter-subscribe .btn-success.is-disabled.newsletter-submit,
+.form-newsletter-signup .btn-success.is-disabled.newsletter-submit {
+    border-color: #aed388;
+    background: #aed388;
+    color: #e1efd2
+}
+
+.btn.btn-warning, .newsletter-subscribe .btn-warning.newsletter-submit,
+.form-newsletter-signup .btn-warning.newsletter-submit {
+    border-color: #ffa726;
+    background: #ffa726
+}
+
+.btn.btn-warning, .newsletter-subscribe .btn-warning.newsletter-submit,
+.form-newsletter-signup .btn-warning.newsletter-submit, .btn.btn-warning .icon,
+.newsletter-subscribe .btn-warning.newsletter-submit .icon, .form-newsletter-signup .btn-warning.newsletter-submit .icon {
+    color: white
+}
+
+.btn.btn-warning:hover, .newsletter-subscribe .btn-warning.newsletter-submit:hover,
+.form-newsletter-signup .btn-warning.newsletter-submit:hover {
+    border-color: #ffa726;
+    background: #ffa726
+}
+
+.btn.btn-warning:active, .newsletter-subscribe .btn-warning.newsletter-submit:active,
+.form-newsletter-signup .btn-warning.newsletter-submit:active {
+    border-color: #ff9d0c;
+    background: #ff9d0c
+}
+
+.btn.btn-warning[disabled], .newsletter-subscribe .btn-warning[disabled].newsletter-submit,
+.form-newsletter-signup .btn-warning[disabled].newsletter-submit,
+.btn.btn-warning.is-disabled, .newsletter-subscribe .btn-warning.is-disabled.newsletter-submit,
+.form-newsletter-signup .btn-warning.is-disabled.newsletter-submit {
+    border-color: #ffd08c;
+    background: #ffd08c;
+    color: #fffaf2
+}
+
+.btn.btn-error, .newsletter-subscribe .btn-error.newsletter-submit,
+.form-newsletter-signup .btn-error.newsletter-submit {
+    border-color: #f06748;
+    background: #f06748
+}
+
+.btn.btn-error, .newsletter-subscribe .btn-error.newsletter-submit,
+.form-newsletter-signup .btn-error.newsletter-submit, .btn.btn-error .icon,
+.newsletter-subscribe .btn-error.newsletter-submit .icon, .form-newsletter-signup .btn-error.newsletter-submit .icon {
+    color: white
+}
+
+.btn.btn-error:hover, .newsletter-subscribe .btn-error.newsletter-submit:hover,
+.form-newsletter-signup .btn-error.newsletter-submit:hover {
+    border-color: #ff5e39;
+    background: #ff5e39
+}
+
+.btn.btn-error:active, .newsletter-subscribe .btn-error.newsletter-submit:active,
+.form-newsletter-signup .btn-error.newsletter-submit:active {
+    border-color: #ed4c27;
+    background: #ed4c27
+}
+
+.btn.btn-error[disabled], .newsletter-subscribe .btn-error[disabled].newsletter-submit,
+.form-newsletter-signup .btn-error[disabled].newsletter-submit,
+.btn.btn-error.is-disabled, .newsletter-subscribe .btn-error.is-disabled.newsletter-submit,
+.form-newsletter-signup .btn-error.is-disabled.newsletter-submit {
+    border-color: #f8b5a6;
+    background: #f8b5a6;
+    color: #fff
+}
+
+.btn.btn-dark, .newsletter-subscribe .btn-dark.newsletter-submit,
+.form-newsletter-signup .btn-dark.newsletter-submit {
+    border-color: #666;
+    background: #666
+}
+
+.btn.btn-dark, .newsletter-subscribe .btn-dark.newsletter-submit,
+.form-newsletter-signup .btn-dark.newsletter-submit, .btn.btn-dark .icon,
+.newsletter-subscribe .btn-dark.newsletter-submit .icon, .form-newsletter-signup .btn-dark.newsletter-submit .icon {
+    color: white
+}
+
+.btn.btn-dark:hover, .newsletter-subscribe .btn-dark.newsletter-submit:hover,
+.form-newsletter-signup .btn-dark.newsletter-submit:hover {
+    border-color: #595959;
+    background: #595959
+}
+
+.btn.btn-dark:active, .newsletter-subscribe .btn-dark.newsletter-submit:active,
+.form-newsletter-signup .btn-dark.newsletter-submit:active {
+    border-color: #4d4d4d;
+    background: #4d4d4d
+}
+
+.btn.btn-dark[disabled], .newsletter-subscribe .btn-dark[disabled].newsletter-submit,
+.form-newsletter-signup .btn-dark[disabled].newsletter-submit,
+.btn.btn-dark.is-disabled, .newsletter-subscribe .btn-dark.is-disabled.newsletter-submit,
+.form-newsletter-signup .btn-dark.is-disabled.newsletter-submit {
+    border-color: #999;
+    background: #999;
+    color: #ccc
+}
+
+@media print {
+    * , * :before, * :after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important
+    }
+
+    a, a:visited {
+        text-decoration: underline
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")"
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")"
+    }
+
+    a[href^="#"]:after, a[href^="javascript:"]:after {
+        content: ""
+    }
+
+    pre, blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid
+    }
+
+    thead {
+        display: table-header-group
+    }
+
+    tr, img {
+        page-break-inside: avoid
+    }
+
+    img {
+        max-width: 100% !important
+    }
+
+    p, h2, h3 {
+        orphans: 3;
+        widows: 3
+    }
+
+    h2, h3 {
+        page-break-after: avoid
+    }
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px
+}
+
+.container:after {
+    clear: both;
+    display: table;
+    content: ''
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 750px
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 970px
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1170px
+    }
+}
+
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px
+}
+
+.row {
+    margin-left: -15px;
+    margin-right: -15px
+}
+
+.row:after {
+    clear: both;
+    display: table;
+    content: ''
+}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2,
+.col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4,
+.col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5,
+.col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7,
+.col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9,
+.col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10,
+.col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12,
+.col-md-12, .col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px
+}
+
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6,
+.col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+    float: left
+}
+
+.col-xs-1 {
+    width: 8.33333%
+}
+
+.col-xs-2 {
+    width: 16.66667%
+}
+
+.col-xs-3 {
+    width: 25%
+}
+
+.col-xs-4 {
+    width: 33.33333%
+}
+
+.col-xs-5 {
+    width: 41.66667%
+}
+
+.col-xs-6 {
+    width: 50%
+}
+
+.col-xs-7 {
+    width: 58.33333%
+}
+
+.col-xs-8 {
+    width: 66.66667%
+}
+
+.col-xs-9 {
+    width: 75%
+}
+
+.col-xs-10 {
+    width: 83.33333%
+}
+
+.col-xs-11 {
+    width: 91.66667%
+}
+
+.col-xs-12 {
+    width: 100%
+}
+
+.col-xs-pull-0 {
+    right: auto
+}
+
+.col-xs-pull-1 {
+    right: 8.33333%
+}
+
+.col-xs-pull-2 {
+    right: 16.66667%
+}
+
+.col-xs-pull-3 {
+    right: 25%
+}
+
+.col-xs-pull-4 {
+    right: 33.33333%
+}
+
+.col-xs-pull-5 {
+    right: 41.66667%
+}
+
+.col-xs-pull-6 {
+    right: 50%
+}
+
+.col-xs-pull-7 {
+    right: 58.33333%
+}
+
+.col-xs-pull-8 {
+    right: 66.66667%
+}
+
+.col-xs-pull-9 {
+    right: 75%
+}
+
+.col-xs-pull-10 {
+    right: 83.33333%
+}
+
+.col-xs-pull-11 {
+    right: 91.66667%
+}
+
+.col-xs-pull-12 {
+    right: 100%
+}
+
+.col-xs-push-0 {
+    left: auto
+}
+
+.col-xs-push-1 {
+    left: 8.33333%
+}
+
+.col-xs-push-2 {
+    left: 16.66667%
+}
+
+.col-xs-push-3 {
+    left: 25%
+}
+
+.col-xs-push-4 {
+    left: 33.33333%
+}
+
+.col-xs-push-5 {
+    left: 41.66667%
+}
+
+.col-xs-push-6 {
+    left: 50%
+}
+
+.col-xs-push-7 {
+    left: 58.33333%
+}
+
+.col-xs-push-8 {
+    left: 66.66667%
+}
+
+.col-xs-push-9 {
+    left: 75%
+}
+
+.col-xs-push-10 {
+    left: 83.33333%
+}
+
+.col-xs-push-11 {
+    left: 91.66667%
+}
+
+.col-xs-push-12 {
+    left: 100%
+}
+
+.col-xs-offset-0 {
+    margin-left: 0%
+}
+
+.col-xs-offset-1 {
+    margin-left: 8.33333%
+}
+
+.col-xs-offset-2 {
+    margin-left: 16.66667%
+}
+
+.col-xs-offset-3 {
+    margin-left: 25%
+}
+
+.col-xs-offset-4 {
+    margin-left: 33.33333%
+}
+
+.col-xs-offset-5 {
+    margin-left: 41.66667%
+}
+
+.col-xs-offset-6 {
+    margin-left: 50%
+}
+
+.col-xs-offset-7 {
+    margin-left: 58.33333%
+}
+
+.col-xs-offset-8 {
+    margin-left: 66.66667%
+}
+
+.col-xs-offset-9 {
+    margin-left: 75%
+}
+
+.col-xs-offset-10 {
+    margin-left: 83.33333%
+}
+
+.col-xs-offset-11 {
+    margin-left: 91.66667%
+}
+
+.col-xs-offset-12 {
+    margin-left: 100%
+}
+
+@media (min-width: 480px) {
+    .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6,
+    .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+        float: left
+    }
+
+    .col-sm-1 {
+        width: 8.33333%
+    }
+
+    .col-sm-2 {
+        width: 16.66667%
+    }
+
+    .col-sm-3 {
+        width: 25%
+    }
+
+    .col-sm-4 {
+        width: 33.33333%
+    }
+
+    .col-sm-5 {
+        width: 41.66667%
+    }
+
+    .col-sm-6 {
+        width: 50%
+    }
+
+    .col-sm-7 {
+        width: 58.33333%
+    }
+
+    .col-sm-8 {
+        width: 66.66667%
+    }
+
+    .col-sm-9 {
+        width: 75%
+    }
+
+    .col-sm-10 {
+        width: 83.33333%
+    }
+
+    .col-sm-11 {
+        width: 91.66667%
+    }
+
+    .col-sm-12 {
+        width: 100%
+    }
+
+    .col-sm-pull-0 {
+        right: auto
+    }
+
+    .col-sm-pull-1 {
+        right: 8.33333%
+    }
+
+    .col-sm-pull-2 {
+        right: 16.66667%
+    }
+
+    .col-sm-pull-3 {
+        right: 25%
+    }
+
+    .col-sm-pull-4 {
+        right: 33.33333%
+    }
+
+    .col-sm-pull-5 {
+        right: 41.66667%
+    }
+
+    .col-sm-pull-6 {
+        right: 50%
+    }
+
+    .col-sm-pull-7 {
+        right: 58.33333%
+    }
+
+    .col-sm-pull-8 {
+        right: 66.66667%
+    }
+
+    .col-sm-pull-9 {
+        right: 75%
+    }
+
+    .col-sm-pull-10 {
+        right: 83.33333%
+    }
+
+    .col-sm-pull-11 {
+        right: 91.66667%
+    }
+
+    .col-sm-pull-12 {
+        right: 100%
+    }
+
+    .col-sm-push-0 {
+        left: auto
+    }
+
+    .col-sm-push-1 {
+        left: 8.33333%
+    }
+
+    .col-sm-push-2 {
+        left: 16.66667%
+    }
+
+    .col-sm-push-3 {
+        left: 25%
+    }
+
+    .col-sm-push-4 {
+        left: 33.33333%
+    }
+
+    .col-sm-push-5 {
+        left: 41.66667%
+    }
+
+    .col-sm-push-6 {
+        left: 50%
+    }
+
+    .col-sm-push-7 {
+        left: 58.33333%
+    }
+
+    .col-sm-push-8 {
+        left: 66.66667%
+    }
+
+    .col-sm-push-9 {
+        left: 75%
+    }
+
+    .col-sm-push-10 {
+        left: 83.33333%
+    }
+
+    .col-sm-push-11 {
+        left: 91.66667%
+    }
+
+    .col-sm-push-12 {
+        left: 100%
+    }
+
+    .col-sm-offset-0 {
+        margin-left: 0%
+    }
+
+    .col-sm-offset-1 {
+        margin-left: 8.33333%
+    }
+
+    .col-sm-offset-2 {
+        margin-left: 16.66667%
+    }
+
+    .col-sm-offset-3 {
+        margin-left: 25%
+    }
+
+    .col-sm-offset-4 {
+        margin-left: 33.33333%
+    }
+
+    .col-sm-offset-5 {
+        margin-left: 41.66667%
+    }
+
+    .col-sm-offset-6 {
+        margin-left: 50%
+    }
+
+    .col-sm-offset-7 {
+        margin-left: 58.33333%
+    }
+
+    .col-sm-offset-8 {
+        margin-left: 66.66667%
+    }
+
+    .col-sm-offset-9 {
+        margin-left: 75%
+    }
+
+    .col-sm-offset-10 {
+        margin-left: 83.33333%
+    }
+
+    .col-sm-offset-11 {
+        margin-left: 91.66667%
+    }
+
+    .col-sm-offset-12 {
+        margin-left: 100%
+    }
+}
+
+@media (min-width: 768px) {
+    .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6,
+    .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+        float: left
+    }
+
+    .col-md-1 {
+        width: 8.33333%
+    }
+
+    .col-md-2 {
+        width: 16.66667%
+    }
+
+    .col-md-3 {
+        width: 25%
+    }
+
+    .col-md-4 {
+        width: 33.33333%
+    }
+
+    .col-md-5 {
+        width: 41.66667%
+    }
+
+    .col-md-6 {
+        width: 50%
+    }
+
+    .col-md-7 {
+        width: 58.33333%
+    }
+
+    .col-md-8 {
+        width: 66.66667%
+    }
+
+    .col-md-9 {
+        width: 75%
+    }
+
+    .col-md-10 {
+        width: 83.33333%
+    }
+
+    .col-md-11 {
+        width: 91.66667%
+    }
+
+    .col-md-12 {
+        width: 100%
+    }
+
+    .col-md-pull-0 {
+        right: auto
+    }
+
+    .col-md-pull-1 {
+        right: 8.33333%
+    }
+
+    .col-md-pull-2 {
+        right: 16.66667%
+    }
+
+    .col-md-pull-3 {
+        right: 25%
+    }
+
+    .col-md-pull-4 {
+        right: 33.33333%
+    }
+
+    .col-md-pull-5 {
+        right: 41.66667%
+    }
+
+    .col-md-pull-6 {
+        right: 50%
+    }
+
+    .col-md-pull-7 {
+        right: 58.33333%
+    }
+
+    .col-md-pull-8 {
+        right: 66.66667%
+    }
+
+    .col-md-pull-9 {
+        right: 75%
+    }
+
+    .col-md-pull-10 {
+        right: 83.33333%
+    }
+
+    .col-md-pull-11 {
+        right: 91.66667%
+    }
+
+    .col-md-pull-12 {
+        right: 100%
+    }
+
+    .col-md-push-0 {
+        left: auto
+    }
+
+    .col-md-push-1 {
+        left: 8.33333%
+    }
+
+    .col-md-push-2 {
+        left: 16.66667%
+    }
+
+    .col-md-push-3 {
+        left: 25%
+    }
+
+    .col-md-push-4 {
+        left: 33.33333%
+    }
+
+    .col-md-push-5 {
+        left: 41.66667%
+    }
+
+    .col-md-push-6 {
+        left: 50%
+    }
+
+    .col-md-push-7 {
+        left: 58.33333%
+    }
+
+    .col-md-push-8 {
+        left: 66.66667%
+    }
+
+    .col-md-push-9 {
+        left: 75%
+    }
+
+    .col-md-push-10 {
+        left: 83.33333%
+    }
+
+    .col-md-push-11 {
+        left: 91.66667%
+    }
+
+    .col-md-push-12 {
+        left: 100%
+    }
+
+    .col-md-offset-0 {
+        margin-left: 0%
+    }
+
+    .col-md-offset-1 {
+        margin-left: 8.33333%
+    }
+
+    .col-md-offset-2 {
+        margin-left: 16.66667%
+    }
+
+    .col-md-offset-3 {
+        margin-left: 25%
+    }
+
+    .col-md-offset-4 {
+        margin-left: 33.33333%
+    }
+
+    .col-md-offset-5 {
+        margin-left: 41.66667%
+    }
+
+    .col-md-offset-6 {
+        margin-left: 50%
+    }
+
+    .col-md-offset-7 {
+        margin-left: 58.33333%
+    }
+
+    .col-md-offset-8 {
+        margin-left: 66.66667%
+    }
+
+    .col-md-offset-9 {
+        margin-left: 75%
+    }
+
+    .col-md-offset-10 {
+        margin-left: 83.33333%
+    }
+
+    .col-md-offset-11 {
+        margin-left: 91.66667%
+    }
+
+    .col-md-offset-12 {
+        margin-left: 100%
+    }
+}
+
+@media (min-width: 992px) {
+    .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6,
+    .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+        float: left
+    }
+
+    .col-lg-1 {
+        width: 8.33333%
+    }
+
+    .col-lg-2 {
+        width: 16.66667%
+    }
+
+    .col-lg-3 {
+        width: 25%
+    }
+
+    .col-lg-4 {
+        width: 33.33333%
+    }
+
+    .col-lg-5 {
+        width: 41.66667%
+    }
+
+    .col-lg-6 {
+        width: 50%
+    }
+
+    .col-lg-7 {
+        width: 58.33333%
+    }
+
+    .col-lg-8 {
+        width: 66.66667%
+    }
+
+    .col-lg-9 {
+        width: 75%
+    }
+
+    .col-lg-10 {
+        width: 83.33333%
+    }
+
+    .col-lg-11 {
+        width: 91.66667%
+    }
+
+    .col-lg-12 {
+        width: 100%
+    }
+
+    .col-lg-pull-0 {
+        right: auto
+    }
+
+    .col-lg-pull-1 {
+        right: 8.33333%
+    }
+
+    .col-lg-pull-2 {
+        right: 16.66667%
+    }
+
+    .col-lg-pull-3 {
+        right: 25%
+    }
+
+    .col-lg-pull-4 {
+        right: 33.33333%
+    }
+
+    .col-lg-pull-5 {
+        right: 41.66667%
+    }
+
+    .col-lg-pull-6 {
+        right: 50%
+    }
+
+    .col-lg-pull-7 {
+        right: 58.33333%
+    }
+
+    .col-lg-pull-8 {
+        right: 66.66667%
+    }
+
+    .col-lg-pull-9 {
+        right: 75%
+    }
+
+    .col-lg-pull-10 {
+        right: 83.33333%
+    }
+
+    .col-lg-pull-11 {
+        right: 91.66667%
+    }
+
+    .col-lg-pull-12 {
+        right: 100%
+    }
+
+    .col-lg-push-0 {
+        left: auto
+    }
+
+    .col-lg-push-1 {
+        left: 8.33333%
+    }
+
+    .col-lg-push-2 {
+        left: 16.66667%
+    }
+
+    .col-lg-push-3 {
+        left: 25%
+    }
+
+    .col-lg-push-4 {
+        left: 33.33333%
+    }
+
+    .col-lg-push-5 {
+        left: 41.66667%
+    }
+
+    .col-lg-push-6 {
+        left: 50%
+    }
+
+    .col-lg-push-7 {
+        left: 58.33333%
+    }
+
+    .col-lg-push-8 {
+        left: 66.66667%
+    }
+
+    .col-lg-push-9 {
+        left: 75%
+    }
+
+    .col-lg-push-10 {
+        left: 83.33333%
+    }
+
+    .col-lg-push-11 {
+        left: 91.66667%
+    }
+
+    .col-lg-push-12 {
+        left: 100%
+    }
+
+    .col-lg-offset-0 {
+        margin-left: 0%
+    }
+
+    .col-lg-offset-1 {
+        margin-left: 8.33333%
+    }
+
+    .col-lg-offset-2 {
+        margin-left: 16.66667%
+    }
+
+    .col-lg-offset-3 {
+        margin-left: 25%
+    }
+
+    .col-lg-offset-4 {
+        margin-left: 33.33333%
+    }
+
+    .col-lg-offset-5 {
+        margin-left: 41.66667%
+    }
+
+    .col-lg-offset-6 {
+        margin-left: 50%
+    }
+
+    .col-lg-offset-7 {
+        margin-left: 58.33333%
+    }
+
+    .col-lg-offset-8 {
+        margin-left: 66.66667%
+    }
+
+    .col-lg-offset-9 {
+        margin-left: 75%
+    }
+
+    .col-lg-offset-10 {
+        margin-left: 83.33333%
+    }
+
+    .col-lg-offset-11 {
+        margin-left: 91.66667%
+    }
+
+    .col-lg-offset-12 {
+        margin-left: 100%
+    }
+}
+
+.l-left {
+    float: left
+}
+
+.l-right {
+    float: right
+}
+
+.l-align-left {
+    text-align: left
+}
+
+.l-align-center {
+    text-align: center
+}
+
+.l-align-center .btn, .l-align-center .newsletter-subscribe .newsletter-submit,
+.newsletter-subscribe .l-align-center .newsletter-submit, .l-align-center .form-newsletter-signup .newsletter-submit,
+.form-newsletter-signup .l-align-center .newsletter-submit, .l-align-center .btn.btn-lg,
+.l-align-center .newsletter-subscribe .btn-lg.newsletter-submit,
+.newsletter-subscribe .l-align-center .btn-lg.newsletter-submit,
+.l-align-center .form-newsletter-signup .btn-lg.newsletter-submit,
+.form-newsletter-signup .l-align-center .btn-lg.newsletter-submit {
+    display: inline-block;
+    float: none
+}
+
+.l-align-right {
+    text-align: right
+}
+
+.is-hidden {
+    display: none !important
+}
+
+.is-visible {
+    display: initial !important
+}
+
+.content-wrapper {
+    position: relative;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin-bottom: -110px
+}
+
+.content-wrapper .footer-displace {
+    height: 109px
+}
+
+main {
+    padding: 0
+}
+
+.home main  {
+    padding: 0
+}
+
+article {
+    padding: 20px 0
+}
+
+/*
+
+.breadcrumbs {
+    background: #f5f5f5;
+    border-bottom: 3px solid #fff;
+    border-top: 3px solid #fff
+}
+
+@media (max-width: 480px) {
+    .breadcrumbs {
+        display: none
+    }
+}
+
+.breadcrumbs ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: block
+}
+
+.breadcrumbs ul li {
+    float: left;
+    font-size: 12px;
+    text-transform: uppercase
+}
+
+@media (max-width: 480px) {
+    .breadcrumbs ul li {
+        font-size: 8px
+    }
+}
+
+.breadcrumbs ul li.divider {
+    position: relative;
+    margin: 0 15px 0 5px;
+    width: 3px;
+    height: 36px;
+    background: #fff
+}
+
+.breadcrumbs ul li.divider:before, .breadcrumbs ul li.divider:after {
+    content: '';
+    float: left;
+    position: absolute;
+    left: 100%;
+    top: 0
+}
+
+.breadcrumbs ul li.divider:before {
+    content: '';
+    z-index: 2;
+    width: 0;
+    height: 0;
+    border-bottom: 19px solid transparent;
+    border-top: 19px solid transparent;
+    border-right: none;
+    border-left: 10px solid #fff
+}
+
+.breadcrumbs ul li.divider:after {
+    content: '';
+    z-index: 2;
+    width: 0;
+    height: 0;
+    border-bottom: 19px solid transparent;
+    border-top: 19px solid transparent;
+    border-right: none;
+    border-left: 10px solid #f5f5f5;
+    margin-left: -3px
+}
+
+.breadcrumbs ul li .icon {
+    font-size: 10px;
+    font-weight: bold;
+    padding: 0 4px
+}
+
+.breadcrumbs ul li a {
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+    color: #777;
+    display: block;
+    text-decoration: none;
+    padding: 8px 10px;
+    cursor: default
+}
+
+@media (max-width: 480px) {
+    .breadcrumbs ul li a {
+        padding: 8px 5px
+    }
+}
+
+.breadcrumbs ul li a:hover {
+    cursor: pointer;
+    color: #FF9E1B
+}
+
+.breadcrumbs ul li:first-child a {
+    padding-left: 0
+}
+*/
+
+.cta {
+    margin-top: 15px;
+    line-height: 1.1em
+}
+
+.cta .title {
+    text-align: left
+}
+
+.cta .size {
+    display: block;
+    font-size: 0.9em;
+    opacity: 0.7;
+    text-align: left
+}
+
+.btn, .newsletter-subscribe .newsletter-submit, .form-newsletter-signup .newsletter-submit {
+    -moz-transition: all 0.08s ease-in;
+    -o-transition: all 0.08s ease-in;
+    -webkit-transition: all 0.08s ease-in;
+    transition: all 0.08s ease-in;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 14px;
+    padding: 10px 20px;
+    border: 1px solid #d0d0d0;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    background: #f5f5f5;
+    color: #555
+}
+
+.btn:hover, .newsletter-subscribe .newsletter-submit:hover, .form-newsletter-signup .newsletter-submit:hover {
+    background: #d0d0d0;
+    color: #555
+}
+
+.btn:active, .newsletter-subscribe .newsletter-submit:active, .form-newsletter-signup .newsletter-submit:active {
+    background: #d0d0d0;
+    color: #555
+}
+
+.btn[disabled], .newsletter-subscribe [disabled].newsletter-submit,
+.form-newsletter-signup [disabled].newsletter-submit, .btn.is-disabled,
+.newsletter-subscribe .is-disabled.newsletter-submit, .form-newsletter-signup .is-disabled.newsletter-submit {
+    cursor: default;
+    border-color: #e5e5e5;
+    background: #f9f9f9;
+    color: #bbb
+}
+
+.btn.btn-hollow, .newsletter-subscribe .btn-hollow.newsletter-submit,
+.form-newsletter-signup .btn-hollow.newsletter-submit {
+    border-width: 2px;
+    font-weight: 700;
+    border-color: #666;
+    color: #666;
+    background-color: transparent
+}
+
+.btn.btn-hollow:hover, .newsletter-subscribe .btn-hollow.newsletter-submit:hover,
+.form-newsletter-signup .btn-hollow.newsletter-submit:hover {
+    color: #333;
+    border-color: #333
+}
+
+.btn.btn-hollow:active, .newsletter-subscribe .btn-hollow.newsletter-submit:active,
+.form-newsletter-signup .btn-hollow.newsletter-submit:active {
+    color: #000;
+    border-color: #000
+}
+
+.btn.btn-hollow.btn-lg, .newsletter-subscribe .btn-hollow.btn-lg.newsletter-submit,
+.form-newsletter-signup .btn-hollow.btn-lg.newsletter-submit {
+    font-weight: 400
+}
+
+.btn.btn-sm, .newsletter-subscribe .btn-sm.newsletter-submit, .form-newsletter-signup .btn-sm.newsletter-submit {
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    padding: 5px 10px
+}
+
+.btn.btn-sm .icon, .newsletter-subscribe .btn-sm.newsletter-submit .icon,
+.form-newsletter-signup .btn-sm.newsletter-submit .icon {
+    margin: 2px 6px 0 -1px
+}
+
+.btn.btn-sm .icon.l-left, .newsletter-subscribe .btn-sm.newsletter-submit .icon.l-left,
+.form-newsletter-signup .btn-sm.newsletter-submit .icon.l-left {
+    margin: 1px 6px 0 0
+}
+
+.btn.btn-sm .icon.l-right, .newsletter-subscribe .btn-sm.newsletter-submit .icon.l-right,
+.form-newsletter-signup .btn-sm.newsletter-submit .icon.l-right {
+    margin: 1px 0 0 6px
+}
+
+.btn.btn-sm.btn-hollow, .newsletter-subscribe .btn-sm.btn-hollow.newsletter-submit,
+.form-newsletter-signup .btn-sm.btn-hollow.newsletter-submit {
+    border-width: 1px
+}
+
+.btn.btn-lg, .newsletter-subscribe .btn-lg.newsletter-submit, .form-newsletter-signup .btn-lg.newsletter-submit {
+    padding: 15px 30px;
+    font-size: 20px
+}
+
+.btn.btn-lg .icon.l-left, .newsletter-subscribe .btn-lg.newsletter-submit .icon.l-left,
+.form-newsletter-signup .btn-lg.newsletter-submit .icon.l-left {
+    margin: 1px 8px 0 -3px
+}
+
+.btn.btn-lg .icon.l-right, .newsletter-subscribe .btn-lg.newsletter-submit .icon.l-right,
+.form-newsletter-signup .btn-lg.newsletter-submit .icon.l-right {
+    margin: 3px -3px 0 8px
+}
+
+.btn.btn-primary, .newsletter-subscribe .newsletter-submit, .form-newsletter-signup .newsletter-submit {
+    border-color: #FF9E1B;
+    background: #FF9E1B
+}
+
+.btn.btn-primary, .newsletter-subscribe .newsletter-submit, .form-newsletter-signup .newsletter-submit,
+.btn.btn-primary .icon, .newsletter-subscribe .newsletter-submit .icon,
+.form-newsletter-signup .newsletter-submit .icon {
+    color: white
+}
+
+.btn.btn-primary:hover, .newsletter-subscribe .newsletter-submit:hover,
+.form-newsletter-signup .newsletter-submit:hover, .btn.btn-primary:active,
+.newsletter-subscribe .newsletter-submit:active, .form-newsletter-signup .newsletter-submit:active {
+    color: white
+}
+
+.btn.btn-primary:hover, .newsletter-subscribe .newsletter-submit:hover,
+.form-newsletter-signup .newsletter-submit:hover {
+    border-color: #109fff;
+    background: #109fff
+}
+
+.btn.btn-primary:active, .newsletter-subscribe .newsletter-submit:active,
+.form-newsletter-signup .newsletter-submit:active {
+    border-color: #2386c8;
+    background: #2386c8
+}
+
+.btn.btn-primary[disabled], .newsletter-subscribe [disabled].newsletter-submit,
+.form-newsletter-signup [disabled].newsletter-submit, .btn.btn-primary.is-disabled,
+.newsletter-subscribe .is-disabled.newsletter-submit, .form-newsletter-signup .is-disabled.newsletter-submit {
+    border-color: #8bc4ea;
+    background: #8bc4ea;
+    color: #e1f0fa
+}
+
+.btn.btn-primary.btn-hollow, .newsletter-subscribe .btn-hollow.newsletter-submit,
+.form-newsletter-signup .btn-hollow.newsletter-submit {
+    background-color: transparent;
+    color: #FF9E1B
+}
+
+.btn.btn-primary.btn-hollow:hover, .newsletter-subscribe .btn-hollow.newsletter-submit:hover,
+.form-newsletter-signup .btn-hollow.newsletter-submit:hover {
+    color: #109fff
+}
+
+.btn.btn-primary.btn-hollow:active, .newsletter-subscribe .btn-hollow.newsletter-submit:active,
+.form-newsletter-signup .btn-hollow.newsletter-submit:active {
+    color: #2386c8
+}
+
+.btn.btn-primary-dark, .newsletter-subscribe .btn-primary-dark.newsletter-submit,
+.form-newsletter-signup .btn-primary-dark.newsletter-submit {
+    border-color: #2386c8;
+    background: #2386c8
+}
+
+.btn.btn-primary-dark, .newsletter-subscribe .btn-primary-dark.newsletter-submit,
+.form-newsletter-signup .btn-primary-dark.newsletter-submit, .btn.btn-primary-dark .icon,
+.newsletter-subscribe .btn-primary-dark.newsletter-submit .icon,
+.form-newsletter-signup .btn-primary-dark.newsletter-submit .icon {
+    color: white
+}
+
+.btn.btn-primary-dark:hover, .newsletter-subscribe .btn-primary-dark.newsletter-submit:hover,
+.form-newsletter-signup .btn-primary-dark.newsletter-submit:hover,
+.btn.btn-primary-dark:active, .newsletter-subscribe .btn-primary-dark.newsletter-submit:active,
+.form-newsletter-signup .btn-primary-dark.newsletter-submit:active {
+    color: white
+}
+
+.btn.btn-primary-dark:hover, .newsletter-subscribe .btn-primary-dark.newsletter-submit:hover,
+.form-newsletter-signup .btn-primary-dark.newsletter-submit:hover {
+    background: #2280bf;
+    border-color: #2280bf
+}
+
+.btn.btn-primary-dark:active, .newsletter-subscribe .btn-primary-dark.newsletter-submit:active,
+.form-newsletter-signup .btn-primary-dark.newsletter-submit:active {
+    border-color: #2077b2;
+    background: #2077b2
+}
+
+.btn.btn-primary-dark[disabled], .newsletter-subscribe .btn-primary-dark[disabled].newsletter-submit,
+.form-newsletter-signup .btn-primary-dark[disabled].newsletter-submit,
+.btn.btn-primary-dark.is-disabled, .newsletter-subscribe .btn-primary-dark.is-disabled.newsletter-submit,
+.form-newsletter-signup .btn-primary-dark.is-disabled.newsletter-submit {
+    border-color: #8bc4ea;
+    background: #8bc4ea;
+    color: #e1f0fa
+}
+
+.btn.btn-primary-dark.btn-hollow, .newsletter-subscribe .btn-primary-dark.btn-hollow.newsletter-submit,
+.form-newsletter-signup .btn-primary-dark.btn-hollow.newsletter-submit {
+    background-color: transparent;
+    color: #2386c8
+}
+
+.btn.btn-primary-dark.btn-hollow:hover, .newsletter-subscribe .btn-primary-dark.btn-hollow.newsletter-submit:hover,
+.form-newsletter-signup .btn-primary-dark.btn-hollow.newsletter-submit:hover {
+    color: #2280bf
+}
+
+.btn.btn-primary-dark.btn-hollow:active, .newsletter-subscribe .btn-primary-dark.btn-hollow.newsletter-submit:active,
+.form-newsletter-signup .btn-primary-dark.btn-hollow.newsletter-submit:active {
+    color: #2077b2
+}
+
+.btn.btn-positive, .newsletter-subscribe .btn-positive.newsletter-submit,
+.form-newsletter-signup .btn-positive.newsletter-submit {
+    border-color: #7cb342;
+    background: #7cb342
+}
+
+.btn.btn-positive, .newsletter-subscribe .btn-positive.newsletter-submit,
+.form-newsletter-signup .btn-positive.newsletter-submit, .btn.btn-positive .icon,
+.newsletter-subscribe .btn-positive.newsletter-submit .icon,
+.form-newsletter-signup .btn-positive.newsletter-submit .icon {
+    color: white
+}
+
+.btn.btn-positive:hover, .newsletter-subscribe .btn-positive.newsletter-submit:hover,
+.form-newsletter-signup .btn-positive.newsletter-submit:hover,
+.btn.btn-positive:active, .newsletter-subscribe .btn-positive.newsletter-submit:active,
+.form-newsletter-signup .btn-positive.newsletter-submit:active {
+    color: white
+}
+
+.btn.btn-positive:hover, .newsletter-subscribe .btn-positive.newsletter-submit:hover,
+.form-newsletter-signup .btn-positive.newsletter-submit:hover {
+    border-color: #7cbf36;
+    background: #7cbf36
+}
+
+.btn.btn-positive:active, .newsletter-subscribe .btn-positive.newsletter-submit:active,
+.form-newsletter-signup .btn-positive.newsletter-submit:active {
+    border-color: #6a9938;
+    background: #6a9938
+}
+
+.btn.btn-positive[disabled], .newsletter-subscribe .btn-positive[disabled].newsletter-submit,
+.form-newsletter-signup .btn-positive[disabled].newsletter-submit,
+.btn.btn-positive.is-disabled, .newsletter-subscribe .btn-positive.is-disabled.newsletter-submit,
+.form-newsletter-signup .btn-positive.is-disabled.newsletter-submit {
+    border-color: #aed388;
+    background: #aed388;
+    color: #e1efd2
+}
+
+.btn.btn-positive.btn-hollow, .newsletter-subscribe .btn-positive.btn-hollow.newsletter-submit,
+.form-newsletter-signup .btn-positive.btn-hollow.newsletter-submit {
+    background-color: transparent;
+    color: #7cb342
+}
+
+.btn.btn-positive.btn-hollow:hover, .newsletter-subscribe .btn-positive.btn-hollow.newsletter-submit:hover,
+.form-newsletter-signup .btn-positive.btn-hollow.newsletter-submit:hover {
+    color: #7cbf36
+}
+
+.btn.btn-positive.btn-hollow:active, .newsletter-subscribe .btn-positive.btn-hollow.newsletter-submit:active,
+.form-newsletter-signup .btn-positive.btn-hollow.newsletter-submit:active {
+    color: #6a9938
+}
+
+.btn.btn-neutral, .newsletter-subscribe .btn-neutral.newsletter-submit,
+.form-newsletter-signup .btn-neutral.newsletter-submit {
+    border-color: #ffa726;
+    background: #ffa726
+}
+
+.btn.btn-neutral, .newsletter-subscribe .btn-neutral.newsletter-submit,
+.form-newsletter-signup .btn-neutral.newsletter-submit, .btn.btn-neutral .icon,
+.newsletter-subscribe .btn-neutral.newsletter-submit .icon, .form-newsletter-signup .btn-neutral.newsletter-submit .icon {
+    color: white
+}
+
+.btn.btn-neutral:hover, .newsletter-subscribe .btn-neutral.newsletter-submit:hover,
+.form-newsletter-signup .btn-neutral.newsletter-submit:hover, .btn.btn-neutral:active,
+.newsletter-subscribe .btn-neutral.newsletter-submit:active, .form-newsletter-signup .btn-neutral.newsletter-submit:active {
+    color: white
+}
+
+.btn.btn-neutral:hover, .newsletter-subscribe .btn-neutral.newsletter-submit:hover,
+.form-newsletter-signup .btn-neutral.newsletter-submit:hover {
+    border-color: #ffb140;
+    background: #ffb140
+}
+
+.btn.btn-neutral:active, .newsletter-subscribe .btn-neutral.newsletter-submit:active,
+.form-newsletter-signup .btn-neutral.newsletter-submit:active {
+    border-color: #ff9d0c;
+    background: #ff9d0c
+}
+
+.btn.btn-neutral[disabled], .newsletter-subscribe .btn-neutral[disabled].newsletter-submit,
+.form-newsletter-signup .btn-neutral[disabled].newsletter-submit,
+.btn.btn-neutral.is-disabled, .newsletter-subscribe .btn-neutral.is-disabled.newsletter-submit,
+.form-newsletter-signup .btn-neutral.is-disabled.newsletter-submit {
+    border-color: #ffd08c;
+    background: #ffd08c;
+    color: #fffaf2
+}
+
+.btn.btn-neutral.btn-hollow, .newsletter-subscribe .btn-neutral.btn-hollow.newsletter-submit,
+.form-newsletter-signup .btn-neutral.btn-hollow.newsletter-submit {
+    background-color: transparent;
+    color: #ffa726
+}
+
+.btn.btn-neutral.btn-hollow:hover, .newsletter-subscribe .btn-neutral.btn-hollow.newsletter-submit:hover,
+.form-newsletter-signup .btn-neutral.btn-hollow.newsletter-submit:hover {
+    color: #ffa726
+}
+
+.btn.btn-neutral.btn-hollow:active, .newsletter-subscribe .btn-neutral.btn-hollow.newsletter-submit:active,
+.form-newsletter-signup .btn-neutral.btn-hollow.newsletter-submit:active {
+    color: #ff9d0c
+}
+
+.btn.btn-negative, .newsletter-subscribe .btn-negative.newsletter-submit,
+.form-newsletter-signup .btn-negative.newsletter-submit {
+    border-color: #f06748;
+    background: #f06748
+}
+
+.btn.btn-negative, .newsletter-subscribe .btn-negative.newsletter-submit,
+.form-newsletter-signup .btn-negative.newsletter-submit, .btn.btn-negative .icon,
+.newsletter-subscribe .btn-negative.newsletter-submit .icon,
+.form-newsletter-signup .btn-negative.newsletter-submit .icon {
+    color: white
+}
+
+.btn.btn-negative:hover, .newsletter-subscribe .btn-negative.newsletter-submit:hover,
+.form-newsletter-signup .btn-negative.newsletter-submit:hover,
+.btn.btn-negative:active, .newsletter-subscribe .btn-negative.newsletter-submit:active,
+.form-newsletter-signup .btn-negative.newsletter-submit:active {
+    color: white
+}
+
+.btn.btn-negative:hover, .newsletter-subscribe .btn-negative.newsletter-submit:hover,
+.form-newsletter-signup .btn-negative.newsletter-submit:hover {
+    border-color: #ff5e39;
+    background: #ff5e39
+}
+
+.btn.btn-negative:active, .newsletter-subscribe .btn-negative.newsletter-submit:active,
+.form-newsletter-signup .btn-negative.newsletter-submit:active {
+    border-color: #ed4c27;
+    background: #ed4c27
+}
+
+.btn.btn-negative[disabled], .newsletter-subscribe .btn-negative[disabled].newsletter-submit,
+.form-newsletter-signup .btn-negative[disabled].newsletter-submit,
+.btn.btn-negative.is-disabled, .newsletter-subscribe .btn-negative.is-disabled.newsletter-submit,
+.form-newsletter-signup .btn-negative.is-disabled.newsletter-submit {
+    border-color: #f8b5a6;
+    background: #f8b5a6;
+    color: #fff
+}
+
+.btn.btn-negative.btn-hollow, .newsletter-subscribe .btn-negative.btn-hollow.newsletter-submit,
+.form-newsletter-signup .btn-negative.btn-hollow.newsletter-submit {
+    background-color: transparent;
+    color: #f06748
+}
+
+.btn.btn-negative.btn-hollow:hover, .newsletter-subscribe .btn-negative.btn-hollow.newsletter-submit:hover,
+.form-newsletter-signup .btn-negative.btn-hollow.newsletter-submit:hover {
+    color: #ff5e39
+}
+
+.btn.btn-negative.btn-hollow:active, .newsletter-subscribe .btn-negative.btn-hollow.newsletter-submit:active,
+.form-newsletter-signup .btn-negative.btn-hollow.newsletter-submit:active {
+    color: #ed4c27
+}
+
+.btn.btn-white, .newsletter-subscribe .btn-white.newsletter-submit,
+.form-newsletter-signup .btn-white.newsletter-submit {
+    border-color: white;
+    background: white
+}
+
+.btn.btn-white, .newsletter-subscribe .btn-white.newsletter-submit,
+.form-newsletter-signup .btn-white.newsletter-submit, .btn.btn-white .icon,
+.newsletter-subscribe .btn-white.newsletter-submit .icon, .form-newsletter-signup .btn-white.newsletter-submit .icon {
+    color: #333
+}
+
+.btn.btn-white:hover, .newsletter-subscribe .btn-white.newsletter-submit:hover,
+.form-newsletter-signup .btn-white.newsletter-submit:hover, .btn.btn-white:active,
+.newsletter-subscribe .btn-white.newsletter-submit:active, .form-newsletter-signup .btn-white.newsletter-submit:active {
+    color: #333
+}
+
+.btn.btn-white:hover, .newsletter-subscribe .btn-white.newsletter-submit:hover,
+.form-newsletter-signup .btn-white.newsletter-submit:hover {
+    border-color: #fafafa;
+    background: #fafafa
+}
+
+.btn.btn-white:active, .newsletter-subscribe .btn-white.newsletter-submit:active,
+.form-newsletter-signup .btn-white.newsletter-submit:active {
+    border-color: #f5f5f5;
+    background: #f5f5f5
+}
+
+.btn.btn-white[disabled], .newsletter-subscribe .btn-white[disabled].newsletter-submit,
+.form-newsletter-signup .btn-white[disabled].newsletter-submit,
+.btn.btn-white.is-disabled, .newsletter-subscribe .btn-white.is-disabled.newsletter-submit,
+.form-newsletter-signup .btn-white.is-disabled.newsletter-submit {
+    color: #999
+}
+
+.btn.btn-white.btn-hollow, .newsletter-subscribe .btn-white.btn-hollow.newsletter-submit,
+.form-newsletter-signup .btn-white.btn-hollow.newsletter-submit {
+    background-color: transparent;
+    color: white
+}
+
+.btn.btn-white.btn-hollow .icon, .newsletter-subscribe .btn-white.btn-hollow.newsletter-submit .icon,
+.form-newsletter-signup .btn-white.btn-hollow.newsletter-submit .icon {
+    color: white
+}
+
+.btn.btn-white.btn-hollow:hover, .newsletter-subscribe .btn-white.btn-hollow.newsletter-submit:hover,
+.form-newsletter-signup .btn-white.btn-hollow.newsletter-submit:hover {
+    background-color: transparent
+}
+
+.btn.btn-white.btn-hollow:active, .newsletter-subscribe .btn-white.btn-hollow.newsletter-submit:active,
+.form-newsletter-signup .btn-white.btn-hollow.newsletter-submit:active {
+    background-color: transparent
+}
+
+.btn.btn-round, .newsletter-subscribe .btn-round.newsletter-submit,
+.form-newsletter-signup .btn-round.newsletter-submit {
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    padding: 0;
+    margin: 0;
+    width: 50px;
+    height: 50px
+}
+
+.btn.btn-round .icon, .newsletter-subscribe .btn-round.newsletter-submit .icon,
+.form-newsletter-signup .btn-round.newsletter-submit .icon {
+    font-size: 24px;
+    line-height: 50px
+}
+
+.btn.btn-play, .newsletter-subscribe .btn-play.newsletter-submit,
+.form-newsletter-signup .btn-play.newsletter-submit {
+    background-color: rgba(255, 255, 255, 0.6);
+    border: none;
+    border-radius: 50%;
+    color: rgba(0, 0, 0, 0.6);
+    height: 100px;
+    width: 100px;
+    padding: 0 0 0 11px;
+    margin: 0
+}
+
+@media (max-width: 480px) {
+    .btn.btn-play, .newsletter-subscribe .btn-play.newsletter-submit,
+    .form-newsletter-signup .btn-play.newsletter-submit {
+        padding: 0 0 0 6px;
+        height: 70px;
+        width: 70px
+    }
+}
+
+.btn.btn-play:hover, .newsletter-subscribe .btn-play.newsletter-submit:hover,
+.form-newsletter-signup .btn-play.newsletter-submit:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: rgba(0, 0, 0, 0.7)
+}
+
+.btn.btn-play:active, .newsletter-subscribe .btn-play.newsletter-submit:active,
+.form-newsletter-signup .btn-play.newsletter-submit:active {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: rgba(0, 0, 0, 0.7)
+}
+
+.btn.btn-play.btn-dark, .newsletter-subscribe .btn-play.btn-dark.newsletter-submit,
+.form-newsletter-signup .btn-play.btn-dark.newsletter-submit {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #fff
+}
+
+.btn.btn-play.btn-dark:hover, .newsletter-subscribe .btn-play.btn-dark.newsletter-submit:hover,
+.form-newsletter-signup .btn-play.btn-dark.newsletter-submit:hover {
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+.btn.btn-play.btn-dark:active, .newsletter-subscribe .btn-play.btn-dark.newsletter-submit:active,
+.form-newsletter-signup .btn-play.btn-dark.newsletter-submit:active {
+    background-color: rgba(0, 0, 0, 0.6)
+}
+
+.btn.btn-play .icon, .newsletter-subscribe .btn-play.newsletter-submit .icon,
+.form-newsletter-signup .btn-play.newsletter-submit .icon {
+    font-size: 90px;
+    line-height: 100px
+}
+
+@media (max-width: 480px) {
+    .btn.btn-play .icon, .newsletter-subscribe .btn-play.newsletter-submit .icon,
+    .form-newsletter-signup .btn-play.newsletter-submit .icon {
+        font-size: 60px;
+        line-height: 70px
+    }
+}
+
+
+
+footer {
+    position: relative;
+    padding: 0;
+    font-size: 13px
+}
+
+@media (max-width: 768px) {
+    footer {
+        padding: 0 20px
+    }
+}
+
+footer ul {
+    float: left;
+    list-style: none;
+    margin: 0 0 8px;
+    padding: 0
+}
+
+@media (max-width: 768px) {
+    footer ul {
+        margin-bottom: 20px
+    }
+}
+
+footer ul li {
+    color: #777;
+    line-height: 1.8em
+}
+
+
+footer .copyright {
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+    margin-top: 20px;
+    text-align: center
+}
+
+footer .copyright .brand {
+    display: inline-block;
+    margin: 3px -5px 0 0;
+    width: 120px;
+    height: 13px;
+    background: transparent url(/tpl/privatedeal/img/brand-footer.png) no-repeat
+}
+
+footer .copyright p {
+    color: #000;
+    margin: 0;
+    font-size: 13px
+}
+
+footer .container {
+    padding-bottom: 40px
+}
+
+footer .container:before {
+    border-top: 1px solid #ddd;
+    margin: 40px 0;
+    content: '';
+    display: block;
+    width: 100%
+}
+
+@media (max-width: 768px) {
+    footer .container {
+        padding-left: 0;
+        padding-right: 0
+    }
+}
+
+.ribbon + footer .container:before {
+    border-top: none;
+    margin-top: 0
+}
+
+footer h5 {
+    color: #FF9E1B;
+    margin: 0 0 10px;
+    font-size: 18px
+}
+
+@media (max-width: 768px) {
+    footer h5 {
+        margin-bottom: 10px
+    }
+}
+
+footer .press-release h6 {
+    color: #333;
+    font-size: 14px;
+    font-weight: 400;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+footer .press-release h6 a {
+    color: #333
+}
+
+footer .press-release h6 a:hover {
+    color: #FF9E1B
+}
+
+footer .press-release time {
+    color: #aaa;
+    font-size: 12px
+}
+
+footer .press-release p {
+    color: #626262;
+    font-size: 14px
+}
+
+footer .newsletter-subscribe {
+    margin-bottom: 30px
+}
+
+footer .newsletter-subscribe .newsletter-form {
+    max-width: 400px
+}
+
+body.has-video-playing {
+    overflow: hidden
+}
+
+.hero-wrapper {
+    margin-top: -60px
+}
+
+.post-type-archive-widgets .hero-wrapper, .single-widgets .hero-wrapper,
+.single-product .hero-wrapper {
+    padding-top: 100px;
+    background-color: #FF9E1B;
+    max-height: none
+}
+
+.hero {
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-color: #FF9E1B;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    margin: 0;
+    z-index: 1;
+    width: 100%;
+    height: 500px;
+    overflow: hidden
+}
+
+@media (max-width: 768px) {
+    .hero {
+        height: 400px
+    }
+}
+
+.post-type-archive-widgets .hero, .single-widgets .hero {
+    height: auto
+}
+
+/*
+.hero.has-overlay:before {
+    background: rgba(0, 0, 0, 0.2) url(/tpl/privatedeal/img/hero-overlay.png);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    pointer-events: none;
+    z-index: 100
+}
+
+/*
+.hero.has-gradient:after {
+    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjU1Ii8+PHN0b3Agb2Zmc2V0PSI0MCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC4yNSIvPjxzdG9wIG9mZnNldD0iNjAlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuMTUiLz48c3RvcCBvZmZzZXQ9IjcwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjEiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC4wIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
+    background-size: 100%;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(0, 0, 0, 0.55)), color-stop(40%, rgba(0, 0, 0, 0.25)), color-stop(60%, rgba(0, 0, 0, 0.15)), color-stop(70%, rgba(0, 0, 0, 0.1)), color-stop(100%, rgba(0, 0, 0, 0)));
+    background-image: -moz-linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.25) 40%, rgba(0, 0, 0, 0.15) 60%, rgba(0, 0, 0, 0.1) 70%, rgba(0, 0, 0, 0));
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.25) 40%, rgba(0, 0, 0, 0.15) 60%, rgba(0, 0, 0, 0.1) 70%, rgba(0, 0, 0, 0));
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.25) 40%, rgba(0, 0, 0, 0.15) 60%, rgba(0, 0, 0, 0.1) 70%, rgba(0, 0, 0, 0));
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    pointer-events: none;
+    z-index: 100
+}
+
+.hero.has-video .hero-bg {
+    -webkit-filter: blur(1px) brightness(80%);
+    filter: blur(1px) brightness(80%);
+    background-color: #656a71;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    width: 104%;
+    height: 104%;
+    position: absolute;
+    left: -2%;
+    top: -2%
+}
+
+.hero.has-video .hero-content {
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    z-index: 999;
+    position: absolute;
+    margin: 0 auto;
+    padding: 0 15px;
+    top: 50%;
+    left: 50%
+}
+
+@media (max-width: 768px) {
+    .hero.has-video .hero-content {
+        margin-top: -10px
+    }
+}
+
+@media (max-width: 480px) {
+    .hero.has-video .hero-content {
+        margin-top: 0
+    }
+}
+
+.hero.has-video h1 {
+    max-width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 3.2em
+}
+
+@media (max-width: 1200px) {
+    .hero.has-video h1 {
+        font-size: 2.6em;
+        max-width: 60%
+    }
+}
+
+@media (max-width: 992px) {
+    .hero.has-video h1 {
+        font-size: 2.4em
+    }
+}
+
+@media (max-width: 768px) {
+    .hero.has-video h1 {
+        max-width: 80%
+    }
+}
+
+@media (max-width: 480px) {
+    .hero.has-video h1 {
+        font-size: 1.8em;
+        width: 100%;
+        max-width: 100%
+    }
+}
+
+.hero.has-video .btn-play {
+    margin: 50px 0 0
+}
+*/
+
+.hero img {
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+    margin: 0 auto;
+    display: block;
+    max-width: 100%
+}
+
+.hero .container {
+    height: 100%;
+    margin: 0px auto;
+    position: relative
+}
+
+.post-type-archive-widgets .hero .container, .single-widgets .hero .container {
+    clear: none;
+    position: relative
+}
+
+.hero .hero-content {
+    position: absolute;
+    z-index: 100;
+    top: 25%
+}
+
+@media (max-width: 768px) {
+    .hero .hero-content {
+        top: 41%;
+        text-align: center;
+        position: relative
+    }
+}
+
+.hero h1 {
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    left: 0;
+    right: 0;
+    font-weight: 700;
+    margin: 20px 0;
+    font-size: 54px
+}
+
+@media (max-width: 1200px) {
+    .hero h1 {
+        font-size: 50px;
+        width: 70%
+    }
+}
+
+@media (max-width: 992px) {
+    .hero h1 {
+        font-size: 40px
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 30px
+    }
+}
+
+.meta-review-search .hero h1 {
+    margin-top: 0;
+    padding: 0 40px
+}
+
+.post-type-archive-widgets .hero h1, .single-widgets .hero h1 {
+    width: 60%;
+    text-shadow: none;
+    text-align: center;
+    position: relative;
+    font-size: 35px;
+    margin: 0 auto 50px
+}
+
+@media (max-width: 992px) {
+    .post-type-archive-widgets .hero h1, .single-widgets .hero h1 {
+        width: 70%
+    }
+}
+
+@media (max-width: 768px) {
+    .post-type-archive-widgets .hero h1, .single-widgets .hero h1 {
+        font-size: 30px;
+        margin-top: 0;
+        margin-bottom: 60px;
+        width: 90%
+    }
+}
+
+@media (max-width: 480px) {
+    .post-type-archive-widgets .hero h1, .single-widgets .hero h1 {
+        font-size: 20px;
+        margin-bottom: 40px
+    }
+}
+
+.hero h2.subtitle {
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    left: 0;
+    right: 0;
+    font-weight: 400;
+    margin: 20px 0;
+    font-size: 2.5em
+}
+
+@media (max-width: 1200px) {
+    .hero h2.subtitle {
+        font-size: 2.2em
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h2.subtitle {
+        font-size: 1.6em
+    }
+}
+
+.navbar {
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+    opacity: 1;
+    position: fixed;
+    z-index: 1000;
+    background: #fff;
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    top: 0
+}
+
+.navbar .container {
+    position: relative
+}
+
+.navbar.is-scrolled {
+    -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3)
+}
+
+.navbar.is-hidden {
+    -moz-transform: translate(0, -50px);
+    -ms-transform: translate(0, -50px);
+    -webkit-transform: translate(0, -50px);
+    transform: translate(0, -50px);
+    display: block !important;
+    opacity: 0
+}
+
+.navbar.is-visible {
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+    display: block !important;
+    opacity: 1
+}
+
+.navbar .brand {
+    -moz-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+	background-image: url(/tpl/privatedeal/img/brand-mobile.png);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    width: 220px;
+    height: 25px;
+    float: left;
+    margin-top: 12px;
+    position: relative;
+    z-index: 1000
+}
+
+@media (max-width: 992px) {
+    .navbar .brand {
+        background-image: url(/tpl/privatedeal/img/brand-mobile.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        float: left;
+        margin: 14px 0;
+        width: 40px;
+        height: 40px
+    }
+}
+
+.navbar .navbar-nav {
+    float: right;
+    list-style: none;
+    padding: 0;
+    margin: 0
+}
+
+@media (max-width: 992px) {
+    .navbar .navbar-nav {
+        display: none
+    }
+}
+
+.navbar .navbar-nav > li {
+    float: left;
+    margin-left: 15px
+}
+
+@media (max-width: 992px) {
+    .navbar .navbar-nav > li {
+        margin-left: 0px
+    }
+}
+
+.navbar .navbar-nav > li.btn, .navbar .newsletter-subscribe .navbar-nav > li.newsletter-submit,
+.newsletter-subscribe .navbar .navbar-nav > li.newsletter-submit,
+.navbar .form-newsletter-signup .navbar-nav > li.newsletter-submit,
+.form-newsletter-signup .navbar .navbar-nav > li.newsletter-submit {
+    margin-top: 7px
+}
+
+.navbar .navbar-nav > li.btn a, .navbar .newsletter-subscribe .navbar-nav > li.newsletter-submit a,
+.newsletter-subscribe .navbar .navbar-nav > li.newsletter-submit a,
+.navbar .form-newsletter-signup .navbar-nav > li.newsletter-submit a,
+.form-newsletter-signup .navbar .navbar-nav > li.newsletter-submit a {
+    padding: 0;
+    color: #fff
+}
+
+.navbar .navbar-nav > li a {
+    color: #666;
+    text-decoration: none;
+    display: block;
+    padding: 15px 10px;
+    font-size: 15px
+}
+
+.navbar .navbar-nav > li a .icon {
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+    float: right;
+    margin: 4px 0 0 2px
+}
+
+.navbar .navbar-nav > li.is-open > a > .icon {
+    -moz-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+    transform: rotate(-180deg)
+}
+
+.navbar .navbar-nav > li.btn, .navbar .newsletter-subscribe .navbar-nav > li.newsletter-submit,
+.newsletter-subscribe .navbar .navbar-nav > li.newsletter-submit,
+.navbar .form-newsletter-signup .navbar-nav > li.newsletter-submit,
+.form-newsletter-signup .navbar .navbar-nav > li.newsletter-submit {
+    color: #fff;
+    border: 2px solid #FF9E1B;
+    background: #FF9E1B;
+    margin-top: 7px;
+    padding: 7px 15px
+}
+
+.navbar .navbar-nav > li.btn:hover, .navbar .newsletter-subscribe .navbar-nav > li.newsletter-submit:hover,
+.newsletter-subscribe .navbar .navbar-nav > li.newsletter-submit:hover,
+.navbar .form-newsletter-signup .navbar-nav > li.newsletter-submit:hover,
+.form-newsletter-signup .navbar .navbar-nav > li.newsletter-submit:hover {
+    border-color: #109fff;
+    background: #109fff
+}
+
+.navbar .navbar-nav > li.btn:active, .navbar .newsletter-subscribe .navbar-nav > li.newsletter-submit:active,
+.newsletter-subscribe .navbar .navbar-nav > li.newsletter-submit:active,
+.navbar .form-newsletter-signup .navbar-nav > li.newsletter-submit:active,
+.form-newsletter-signup .navbar .navbar-nav > li.newsletter-submit:active {
+    border-color: #2386c8;
+    background: #2386c8
+}
+
+.navbar .navbar-nav > li.btn a, .navbar .newsletter-subscribe .navbar-nav > li.newsletter-submit a,
+.newsletter-subscribe .navbar .navbar-nav > li.newsletter-submit a,
+.navbar .form-newsletter-signup .navbar-nav > li.newsletter-submit a,
+.form-newsletter-signup .navbar .navbar-nav > li.newsletter-submit a {
+    padding: 0;
+    color: #fff
+}
+
+.navbar .navbar-nav .dropdown {
+    position: relative
+}
+
+.navbar .navbar-nav .dropdown [data-toggle="dropdown"] {
+    cursor: pointer
+}
+
+.navbar .navbar-nav .dropdown.is-open:before, .navbar .navbar-nav .dropdown.is-open:after {
+    position: fixed;
+    margin-left: 20px;
+    bottom: 0
+}
+
+.navbar .navbar-nav .dropdown.is-open:before {
+    content: '';
+    z-index: 2;
+    width: 0;
+    height: 0;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-top: none;
+    border-bottom: 10px solid #e8e8e8
+}
+
+.navbar .navbar-nav .dropdown.is-open:after {
+    content: '';
+    z-index: 2;
+    width: 0;
+    height: 0;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-top: none;
+    border-bottom: 10px solid #fff;
+    margin-bottom: -1px
+}
+
+.navbar .navbar-nav .dropdown.is-open > .dropdown-menu {
+    display: block
+}
+
+.navbar .navbar-nav .dropdown.is-open > .dropdown-menu .is-open:before,
+.navbar .navbar-nav .dropdown.is-open > .dropdown-menu .is-open:after {
+    border: none
+}
+
+.navbar .navbar-nav .dropdown-menu {
+    -moz-box-shadow: rgba(0, 0, 0, 0.25) 0 2px 3px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0 2px 3px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 2px 3px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #e8e8e8;
+    left: 10px;
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+    display: none;
+    min-width: 150px;
+    width: auto
+}
+
+.navbar .navbar-nav .dropdown-menu ul {
+    margin: 0
+}
+
+.navbar .navbar-nav .dropdown-menu ul li + li {
+    border-top: 1px solid #eee
+}
+
+.navbar .navbar-nav .dropdown-menu ul li a {
+    display: block;
+    color: #666;
+    padding: 8px 10px;
+    white-space: pre
+}
+
+.navbar .navbar-nav .dropdown-menu ul li a:hover {
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    color: #FF9E1B;
+    background: #f5f5f5
+}
+
+.navbar .navbar-nav .dropdown-menu ul li a.dropdown-toggle {
+    padding-right: 25px
+}
+
+.navbar .navbar-nav .is-open .dropdown .icon {
+    float: right;
+    padding: 13px 0;
+    position: absolute;
+    right: 7px;
+    top: -1px
+}
+
+.navbar .navbar-nav .is-open .dropdown .dropdown-menu {
+    -moz-border-radius: 0 4px 4px 4px;
+    -webkit-border-radius: 0;
+    border-radius: 0 4px 4px 4px;
+    left: 100%;
+    top: 0px
+}
+
+.navbar .navbar-nav .is-open .dropdown .dropdown-menu:before, .navbar .navbar-nav .is-open .dropdown .dropdown-menu:after {
+    border: none
+}
+
+.navbar .navbar-nav .mega-menu {
+    position: static
+}
+
+.navbar .navbar-nav .mega-menu > .dropdown-menu {
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    left: 50%;
+    position: absolute;
+    width: 700px;
+    padding: 20px
+}
+
+.navbar .navbar-nav .mega-menu > .dropdown-menu .dropdown-menu {
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    display: block;
+    position: relative;
+    float: left;
+    border: none
+}
+
+.navbar .navbar-nav .mega-menu > .dropdown-menu > ul {
+    width: 50%;
+    float: left
+}
+
+.navbar .navbar-nav .mega-menu > .dropdown-menu ul {
+    display: block
+}
+
+.navbar .navbar-nav .mega-menu > .dropdown-menu ul h3 {
+    color: #FF9E1B;
+    font-size: 1.4em;
+    margin: 15px 20px 25px
+}
+
+.navbar .navbar-nav .mega-menu > .dropdown-menu ul li + li {
+    border: none;
+    margin-top: 7px
+}
+
+.navbar .navbar-nav .mega-menu > .dropdown-menu ul li a {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+    padding: 10px 15px 10px 40px;
+    margin-left: -2px;
+    border: none;
+    display: inline-block
+}
+
+.navbar .navbar-nav .mega-menu > .dropdown-menu ul li a .icon {
+    float: left;
+    font-size: 1.4em;
+    margin: -2px 0 0 -30px;
+    position: absolute;
+    color: #FF9E1B
+}
+
+.navbar .navbar-nav .mega-menu > .dropdown-menu ul li a .icon.icon-meta-review {
+    font-size: 1.5em;
+    margin-top: 1px
+}
+
+.navbar .navbar-nav .mega-menu.widget .widget_text {
+    bottom: 0px;
+    float: right;
+    right: 0;
+    width: 50%
+}
+
+.navbar .navbar-nav .mega-menu.widget .widget_text img {
+    bottom: -21px;
+    display: block;
+    height: auto;
+    margin: 0px 0 20px;
+    max-width: 100%;
+    position: relative
+}
+
+.navbar .navbar-nav .mega-menu .item-image {
+    display: none
+}
+
+.overview .navbar:not(.is-scrolled), .single-overview-box .navbar:not(.is-scrolled) {
+    background-color: transparent
+}
+
+/*
+.post-type-archive-widgets .navbar:not(.is-scrolled), .single-product .navbar:not(.is-scrolled),
+.single-widgets .navbar:not(.is-scrolled), .home .navbar:not(.is-scrolled),
+.meta-review-search .navbar:not(.is-scrolled), .contact-us .navbar:not(.is-scrolled),
+.brand-guidelines .navbar:not(.is-scrolled), .careers .navbar:not(.is-scrolled),
+.tax-job-department .navbar:not(.is-scrolled), .overview .navbar:not(.is-scrolled),
+.single-overview-box .navbar:not(.is-scrolled), .page-landing .navbar,
+.email-signature-generator .navbar {
+    background: transparent
+}
+
+.post-type-archive-widgets .navbar:not(.is-scrolled) .brand, .single-product .navbar:not(.is-scrolled) .brand,
+.single-widgets .navbar:not(.is-scrolled) .brand, .home .navbar:not(.is-scrolled) .brand,
+.meta-review-search .navbar:not(.is-scrolled) .brand, .contact-us .navbar:not(.is-scrolled) .brand,
+.brand-guidelines .navbar:not(.is-scrolled) .brand, .careers .navbar:not(.is-scrolled) .brand,
+.tax-job-department .navbar:not(.is-scrolled) .brand, .overview .navbar:not(.is-scrolled) .brand,
+.single-overview-box .navbar:not(.is-scrolled) .brand, .page-landing .navbar .brand,
+.email-signature-generator .navbar .brand {
+    background-image: url(/tpl/privatedeal/img/privatedeal-logo-footer.svg)
+}
+
+@media (max-width: 992px) {
+    .post-type-archive-widgets .navbar:not(.is-scrolled) .brand, .single-product .navbar:not(.is-scrolled) .brand,
+    .single-widgets .navbar:not(.is-scrolled) .brand, .home .navbar:not(.is-scrolled) .brand,
+    .meta-review-search .navbar:not(.is-scrolled) .brand, .contact-us .navbar:not(.is-scrolled) .brand,
+    .brand-guidelines .navbar:not(.is-scrolled) .brand, .careers .navbar:not(.is-scrolled) .brand,
+    .tax-job-department .navbar:not(.is-scrolled) .brand, .overview .navbar:not(.is-scrolled) .brand,
+    .single-overview-box .navbar:not(.is-scrolled) .brand, .page-landing .navbar .brand,
+    .email-signature-generator .navbar .brand {
+        background-image: url(/tpl/privatedeal/img/brand-mobile.png);
+        background-repeat: no-repeat
+    }
+}
+
+.post-type-archive-widgets .navbar:not(.is-scrolled) .navbar-nav > li > a,
+.single-product .navbar:not(.is-scrolled) .navbar-nav > li > a, .single-widgets .navbar:not(.is-scrolled) .navbar-nav > li > a,
+.home .navbar:not(.is-scrolled) .navbar-nav > li > a, .meta-review-search .navbar:not(.is-scrolled) .navbar-nav > li > a,
+.contact-us .navbar:not(.is-scrolled) .navbar-nav > li > a, .brand-guidelines .navbar:not(.is-scrolled) .navbar-nav > li > a,
+.careers .navbar:not(.is-scrolled) .navbar-nav > li > a, .tax-job-department .navbar:not(.is-scrolled) .navbar-nav > li > a,
+.overview .navbar:not(.is-scrolled) .navbar-nav > li > a, .single-overview-box .navbar:not(.is-scrolled) .navbar-nav > li > a,
+.page-landing .navbar .navbar-nav > li > a, .email-signature-generator .navbar .navbar-nav > li > a {
+    color: #fff
+}
+
+.post-type-archive-widgets .navbar:not(.is-scrolled) .navbar-nav > li.btn,
+.post-type-archive-widgets .navbar:not(.is-scrolled) .newsletter-subscribe .navbar-nav > li.newsletter-submit,
+.newsletter-subscribe .post-type-archive-widgets .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit,
+.post-type-archive-widgets .navbar:not(.is-scrolled) .form-newsletter-signup .navbar-nav > li.newsletter-submit,
+.form-newsletter-signup .post-type-archive-widgets .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit,
+.single-product .navbar:not(.is-scrolled) .navbar-nav > li.btn, .single-product .navbar:not(.is-scrolled) .newsletter-subscribe .navbar-nav > li.newsletter-submit,
+.newsletter-subscribe .single-product .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit,
+.single-product .navbar:not(.is-scrolled) .form-newsletter-signup .navbar-nav > li.newsletter-submit,
+.form-newsletter-signup .single-product .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit,
+.single-widgets .navbar:not(.is-scrolled) .navbar-nav > li.btn, .single-widgets .navbar:not(.is-scrolled) .newsletter-subscribe .navbar-nav > li.newsletter-submit,
+.newsletter-subscribe .single-widgets .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit,
+.single-widgets .navbar:not(.is-scrolled) .form-newsletter-signup .navbar-nav > li.newsletter-submit,
+.form-newsletter-signup .single-widgets .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit,
+.home .navbar:not(.is-scrolled) .navbar-nav > li.btn, .home .navbar:not(.is-scrolled) .newsletter-subscribe .navbar-nav > li.newsletter-submit,
+.newsletter-subscribe .home .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit,
+.home .navbar:not(.is-scrolled) .form-newsletter-signup .navbar-nav > li.newsletter-submit,
+.form-newsletter-signup .home .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit,
+.meta-review-search .navbar:not(.is-scrolled) .navbar-nav > li.btn,
+.meta-review-search .navbar:not(.is-scrolled) .newsletter-subscribe .navbar-nav > li.newsletter-submit,
+.newsletter-subscribe .meta-review-search .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit,
+.meta-review-search .navbar:not(.is-scrolled) .form-newsletter-signup .navbar-nav > li.newsletter-submit,
+.form-newsletter-signup .meta-review-search .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit,
+.contact-us .navbar:not(.is-scrolled) .navbar-nav > li.btn, .contact-us .navbar:not(.is-scrolled) .newsletter-subscribe .navbar-nav > li.newsletter-submit,
+.newsletter-subscribe .contact-us .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit,
+.contact-us .navbar:not(.is-scrolled) .form-newsletter-signup .navbar-nav > li.newsletter-submit,
+.form-newsletter-signup .contact-us .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit,
+.brand-guidelines .navbar:not(.is-scrolled) .navbar-nav > li.btn,
+.brand-guidelines .navbar:not(.is-scrolled) .newsletter-subscribe .navbar-nav > li.newsletter-submit,
+.newsletter-subscribe .brand-guidelines .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit,
+.brand-guidelines .navbar:not(.is-scrolled) .form-newsletter-signup .navbar-nav > li.newsletter-submit,
+.form-newsletter-signup .brand-guidelines .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit,
+.careers .navbar:not(.is-scrolled) .navbar-nav > li.btn, .careers .navbar:not(.is-scrolled) .newsletter-subscribe .navbar-nav > li.newsletter-submit,
+.newsletter-subscribe .careers .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit,
+.careers .navbar:not(.is-scrolled) .form-newsletter-signup .navbar-nav > li.newsletter-submit,
+.form-newsletter-signup .careers .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit,
+.tax-job-department .navbar:not(.is-scrolled) .navbar-nav > li.btn,
+.tax-job-department .navbar:not(.is-scrolled) .newsletter-subscribe .navbar-nav > li.newsletter-submit,
+.newsletter-subscribe .tax-job-department .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit,
+.tax-job-department .navbar:not(.is-scrolled) .form-newsletter-signup .navbar-nav > li.newsletter-submit,
+.form-newsletter-signup .tax-job-department .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit,
+.overview .navbar:not(.is-scrolled) .navbar-nav > li.btn, .overview .navbar:not(.is-scrolled) .newsletter-subscribe .navbar-nav > li.newsletter-submit,
+.newsletter-subscribe .overview .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit,
+.overview .navbar:not(.is-scrolled) .form-newsletter-signup .navbar-nav > li.newsletter-submit,
+.form-newsletter-signup .overview .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit,
+.single-overview-box .navbar:not(.is-scrolled) .navbar-nav > li.btn,
+.single-overview-box .navbar:not(.is-scrolled) .newsletter-subscribe .navbar-nav > li.newsletter-submit,
+.newsletter-subscribe .single-overview-box .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit,
+.single-overview-box .navbar:not(.is-scrolled) .form-newsletter-signup .navbar-nav > li.newsletter-submit,
+.form-newsletter-signup .single-overview-box .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit,
+.page-landing .navbar .navbar-nav > li.btn, .page-landing .navbar .newsletter-subscribe .navbar-nav > li.newsletter-submit,
+.newsletter-subscribe .page-landing .navbar .navbar-nav > li.newsletter-submit,
+.page-landing .navbar .form-newsletter-signup .navbar-nav > li.newsletter-submit,
+.form-newsletter-signup .page-landing .navbar .navbar-nav > li.newsletter-submit,
+.email-signature-generator .navbar .navbar-nav > li.btn, .email-signature-generator .navbar .newsletter-subscribe .navbar-nav > li.newsletter-submit,
+.newsletter-subscribe .email-signature-generator .navbar .navbar-nav > li.newsletter-submit,
+.email-signature-generator .navbar .form-newsletter-signup .navbar-nav > li.newsletter-submit,
+.form-newsletter-signup .email-signature-generator .navbar .navbar-nav > li.newsletter-submit {
+    color: #fff;
+    border-color: #fff;
+    background: transparent
+}
+
+.post-type-archive-widgets .navbar:not(.is-scrolled) .navbar-nav > li.btn:hover,
+.post-type-archive-widgets .navbar:not(.is-scrolled) .newsletter-subscribe .navbar-nav > li.newsletter-submit:hover,
+.newsletter-subscribe .post-type-archive-widgets .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit:hover,
+.post-type-archive-widgets .navbar:not(.is-scrolled) .form-newsletter-signup .navbar-nav > li.newsletter-submit:hover,
+.form-newsletter-signup .post-type-archive-widgets .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit:hover,
+.post-type-archive-widgets .navbar:not(.is-scrolled) .navbar-nav > li.btn:active,
+.post-type-archive-widgets .navbar:not(.is-scrolled) .newsletter-subscribe .navbar-nav > li.newsletter-submit:active,
+.newsletter-subscribe .post-type-archive-widgets .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit:active,
+.post-type-archive-widgets .navbar:not(.is-scrolled) .form-newsletter-signup .navbar-nav > li.newsletter-submit:active,
+.form-newsletter-signup .post-type-archive-widgets .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit:active,
+.single-product .navbar:not(.is-scrolled) .navbar-nav > li.btn:hover,
+.single-product .navbar:not(.is-scrolled) .newsletter-subscribe .navbar-nav > li.newsletter-submit:hover,
+.newsletter-subscribe .single-product .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit:hover,
+.single-product .navbar:not(.is-scrolled) .form-newsletter-signup .navbar-nav > li.newsletter-submit:hover,
+.form-newsletter-signup .single-product .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit:hover,
+.single-product .navbar:not(.is-scrolled) .navbar-nav > li.btn:active,
+.single-product .navbar:not(.is-scrolled) .newsletter-subscribe .navbar-nav > li.newsletter-submit:active,
+.newsletter-subscribe .single-product .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit:active,
+.single-product .navbar:not(.is-scrolled) .form-newsletter-signup .navbar-nav > li.newsletter-submit:active,
+.form-newsletter-signup .single-product .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit:active,
+.single-widgets .navbar:not(.is-scrolled) .navbar-nav > li.btn:hover,
+.single-widgets .navbar:not(.is-scrolled) .newsletter-subscribe .navbar-nav > li.newsletter-submit:hover,
+.newsletter-subscribe .single-widgets .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit:hover,
+.single-widgets .navbar:not(.is-scrolled) .form-newsletter-signup .navbar-nav > li.newsletter-submit:hover,
+.form-newsletter-signup .single-widgets .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit:hover,
+.single-widgets .navbar:not(.is-scrolled) .navbar-nav > li.btn:active,
+.single-widgets .navbar:not(.is-scrolled) .newsletter-subscribe .navbar-nav > li.newsletter-submit:active,
+.newsletter-subscribe .single-widgets .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit:active,
+.single-widgets .navbar:not(.is-scrolled) .form-newsletter-signup .navbar-nav > li.newsletter-submit:active,
+.form-newsletter-signup .single-widgets .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit:active,
+.home .navbar:not(.is-scrolled) .navbar-nav > li.btn:hover, .home .navbar:not(.is-scrolled) .newsletter-subscribe .navbar-nav > li.newsletter-submit:hover,
+.newsletter-subscribe .home .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit:hover,
+.home .navbar:not(.is-scrolled) .form-newsletter-signup .navbar-nav > li.newsletter-submit:hover,
+.form-newsletter-signup .home .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit:hover,
+.home .navbar:not(.is-scrolled) .navbar-nav > li.btn:active, .home .navbar:not(.is-scrolled) .newsletter-subscribe .navbar-nav > li.newsletter-submit:active,
+.newsletter-subscribe .home .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit:active,
+.home .navbar:not(.is-scrolled) .form-newsletter-signup .navbar-nav > li.newsletter-submit:active,
+.form-newsletter-signup .home .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit:active,
+.meta-review-search .navbar:not(.is-scrolled) .navbar-nav > li.btn:hover,
+.meta-review-search .navbar:not(.is-scrolled) .newsletter-subscribe .navbar-nav > li.newsletter-submit:hover,
+.newsletter-subscribe .meta-review-search .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit:hover,
+.meta-review-search .navbar:not(.is-scrolled) .form-newsletter-signup .navbar-nav > li.newsletter-submit:hover,
+.form-newsletter-signup .meta-review-search .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit:hover,
+.meta-review-search .navbar:not(.is-scrolled) .navbar-nav > li.btn:active,
+.meta-review-search .navbar:not(.is-scrolled) .newsletter-subscribe .navbar-nav > li.newsletter-submit:active,
+.newsletter-subscribe .meta-review-search .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit:active,
+.meta-review-search .navbar:not(.is-scrolled) .form-newsletter-signup .navbar-nav > li.newsletter-submit:active,
+.form-newsletter-signup .meta-review-search .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit:active,
+.contact-us .navbar:not(.is-scrolled) .navbar-nav > li.btn:hover,
+.contact-us .navbar:not(.is-scrolled) .newsletter-subscribe .navbar-nav > li.newsletter-submit:hover,
+.newsletter-subscribe .contact-us .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit:hover,
+.contact-us .navbar:not(.is-scrolled) .form-newsletter-signup .navbar-nav > li.newsletter-submit:hover,
+.form-newsletter-signup .contact-us .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit:hover,
+.contact-us .navbar:not(.is-scrolled) .navbar-nav > li.btn:active,
+.contact-us .navbar:not(.is-scrolled) .newsletter-subscribe .navbar-nav > li.newsletter-submit:active,
+.newsletter-subscribe .contact-us .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit:active,
+.contact-us .navbar:not(.is-scrolled) .form-newsletter-signup .navbar-nav > li.newsletter-submit:active,
+.form-newsletter-signup .contact-us .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit:active,
+.brand-guidelines .navbar:not(.is-scrolled) .navbar-nav > li.btn:hover,
+.brand-guidelines .navbar:not(.is-scrolled) .newsletter-subscribe .navbar-nav > li.newsletter-submit:hover,
+.newsletter-subscribe .brand-guidelines .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit:hover,
+.brand-guidelines .navbar:not(.is-scrolled) .form-newsletter-signup .navbar-nav > li.newsletter-submit:hover,
+.form-newsletter-signup .brand-guidelines .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit:hover,
+.brand-guidelines .navbar:not(.is-scrolled) .navbar-nav > li.btn:active,
+.brand-guidelines .navbar:not(.is-scrolled) .newsletter-subscribe .navbar-nav > li.newsletter-submit:active,
+.newsletter-subscribe .brand-guidelines .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit:active,
+.brand-guidelines .navbar:not(.is-scrolled) .form-newsletter-signup .navbar-nav > li.newsletter-submit:active,
+.form-newsletter-signup .brand-guidelines .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit:active,
+.careers .navbar:not(.is-scrolled) .navbar-nav > li.btn:hover, .careers .navbar:not(.is-scrolled) .newsletter-subscribe .navbar-nav > li.newsletter-submit:hover,
+.newsletter-subscribe .careers .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit:hover,
+.careers .navbar:not(.is-scrolled) .form-newsletter-signup .navbar-nav > li.newsletter-submit:hover,
+.form-newsletter-signup .careers .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit:hover,
+.careers .navbar:not(.is-scrolled) .navbar-nav > li.btn:active, .careers .navbar:not(.is-scrolled) .newsletter-subscribe .navbar-nav > li.newsletter-submit:active,
+.newsletter-subscribe .careers .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit:active,
+.careers .navbar:not(.is-scrolled) .form-newsletter-signup .navbar-nav > li.newsletter-submit:active,
+.form-newsletter-signup .careers .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit:active,
+.tax-job-department .navbar:not(.is-scrolled) .navbar-nav > li.btn:hover,
+.tax-job-department .navbar:not(.is-scrolled) .newsletter-subscribe .navbar-nav > li.newsletter-submit:hover,
+.newsletter-subscribe .tax-job-department .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit:hover,
+.tax-job-department .navbar:not(.is-scrolled) .form-newsletter-signup .navbar-nav > li.newsletter-submit:hover,
+.form-newsletter-signup .tax-job-department .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit:hover,
+.tax-job-department .navbar:not(.is-scrolled) .navbar-nav > li.btn:active,
+.tax-job-department .navbar:not(.is-scrolled) .newsletter-subscribe .navbar-nav > li.newsletter-submit:active,
+.newsletter-subscribe .tax-job-department .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit:active,
+.tax-job-department .navbar:not(.is-scrolled) .form-newsletter-signup .navbar-nav > li.newsletter-submit:active,
+.form-newsletter-signup .tax-job-department .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit:active,
+.overview .navbar:not(.is-scrolled) .navbar-nav > li.btn:hover, .overview .navbar:not(.is-scrolled) .newsletter-subscribe .navbar-nav > li.newsletter-submit:hover,
+.newsletter-subscribe .overview .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit:hover,
+.overview .navbar:not(.is-scrolled) .form-newsletter-signup .navbar-nav > li.newsletter-submit:hover,
+.form-newsletter-signup .overview .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit:hover,
+.overview .navbar:not(.is-scrolled) .navbar-nav > li.btn:active, .overview .navbar:not(.is-scrolled) .newsletter-subscribe .navbar-nav > li.newsletter-submit:active,
+.newsletter-subscribe .overview .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit:active,
+.overview .navbar:not(.is-scrolled) .form-newsletter-signup .navbar-nav > li.newsletter-submit:active,
+.form-newsletter-signup .overview .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit:active,
+.single-overview-box .navbar:not(.is-scrolled) .navbar-nav > li.btn:hover,
+.single-overview-box .navbar:not(.is-scrolled) .newsletter-subscribe .navbar-nav > li.newsletter-submit:hover,
+.newsletter-subscribe .single-overview-box .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit:hover,
+.single-overview-box .navbar:not(.is-scrolled) .form-newsletter-signup .navbar-nav > li.newsletter-submit:hover,
+.form-newsletter-signup .single-overview-box .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit:hover,
+.single-overview-box .navbar:not(.is-scrolled) .navbar-nav > li.btn:active,
+.single-overview-box .navbar:not(.is-scrolled) .newsletter-subscribe .navbar-nav > li.newsletter-submit:active,
+.newsletter-subscribe .single-overview-box .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit:active,
+.single-overview-box .navbar:not(.is-scrolled) .form-newsletter-signup .navbar-nav > li.newsletter-submit:active,
+.form-newsletter-signup .single-overview-box .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit:active,
+.page-landing .navbar .navbar-nav > li.btn:hover, .page-landing .navbar .newsletter-subscribe .navbar-nav > li.newsletter-submit:hover,
+.newsletter-subscribe .page-landing .navbar .navbar-nav > li.newsletter-submit:hover,
+.page-landing .navbar .form-newsletter-signup .navbar-nav > li.newsletter-submit:hover,
+.form-newsletter-signup .page-landing .navbar .navbar-nav > li.newsletter-submit:hover,
+.page-landing .navbar .navbar-nav > li.btn:active, .page-landing .navbar .newsletter-subscribe .navbar-nav > li.newsletter-submit:active,
+.newsletter-subscribe .page-landing .navbar .navbar-nav > li.newsletter-submit:active,
+.page-landing .navbar .form-newsletter-signup .navbar-nav > li.newsletter-submit:active,
+.form-newsletter-signup .page-landing .navbar .navbar-nav > li.newsletter-submit:active,
+.email-signature-generator .navbar .navbar-nav > li.btn:hover, .email-signature-generator .navbar .newsletter-subscribe .navbar-nav > li.newsletter-submit:hover,
+.newsletter-subscribe .email-signature-generator .navbar .navbar-nav > li.newsletter-submit:hover,
+.email-signature-generator .navbar .form-newsletter-signup .navbar-nav > li.newsletter-submit:hover,
+.form-newsletter-signup .email-signature-generator .navbar .navbar-nav > li.newsletter-submit:hover,
+.email-signature-generator .navbar .navbar-nav > li.btn:active, .email-signature-generator .navbar .newsletter-subscribe .navbar-nav > li.newsletter-submit:active,
+.newsletter-subscribe .email-signature-generator .navbar .navbar-nav > li.newsletter-submit:active,
+.email-signature-generator .navbar .form-newsletter-signup .navbar-nav > li.newsletter-submit:active,
+.form-newsletter-signup .email-signature-generator .navbar .navbar-nav > li.newsletter-submit:active {
+    border-color: #fff;
+    background: transparent
+}
+
+.post-type-archive-widgets .navbar:not(.is-scrolled) .navbar-nav > li.btn a,
+.post-type-archive-widgets .navbar:not(.is-scrolled) .newsletter-subscribe .navbar-nav > li.newsletter-submit a,
+.newsletter-subscribe .post-type-archive-widgets .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit a,
+.post-type-archive-widgets .navbar:not(.is-scrolled) .form-newsletter-signup .navbar-nav > li.newsletter-submit a,
+.form-newsletter-signup .post-type-archive-widgets .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit a,
+.single-product .navbar:not(.is-scrolled) .navbar-nav > li.btn a, .single-product .navbar:not(.is-scrolled) .newsletter-subscribe .navbar-nav > li.newsletter-submit a,
+.newsletter-subscribe .single-product .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit a,
+.single-product .navbar:not(.is-scrolled) .form-newsletter-signup .navbar-nav > li.newsletter-submit a,
+.form-newsletter-signup .single-product .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit a,
+.single-widgets .navbar:not(.is-scrolled) .navbar-nav > li.btn a, .single-widgets .navbar:not(.is-scrolled) .newsletter-subscribe .navbar-nav > li.newsletter-submit a,
+.newsletter-subscribe .single-widgets .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit a,
+.single-widgets .navbar:not(.is-scrolled) .form-newsletter-signup .navbar-nav > li.newsletter-submit a,
+.form-newsletter-signup .single-widgets .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit a,
+.home .navbar:not(.is-scrolled) .navbar-nav > li.btn a, .home .navbar:not(.is-scrolled) .newsletter-subscribe .navbar-nav > li.newsletter-submit a,
+.newsletter-subscribe .home .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit a,
+.home .navbar:not(.is-scrolled) .form-newsletter-signup .navbar-nav > li.newsletter-submit a,
+.form-newsletter-signup .home .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit a,
+.meta-review-search .navbar:not(.is-scrolled) .navbar-nav > li.btn a,
+.meta-review-search .navbar:not(.is-scrolled) .newsletter-subscribe .navbar-nav > li.newsletter-submit a,
+.newsletter-subscribe .meta-review-search .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit a,
+.meta-review-search .navbar:not(.is-scrolled) .form-newsletter-signup .navbar-nav > li.newsletter-submit a,
+.form-newsletter-signup .meta-review-search .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit a,
+.contact-us .navbar:not(.is-scrolled) .navbar-nav > li.btn a, .contact-us .navbar:not(.is-scrolled) .newsletter-subscribe .navbar-nav > li.newsletter-submit a,
+.newsletter-subscribe .contact-us .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit a,
+.contact-us .navbar:not(.is-scrolled) .form-newsletter-signup .navbar-nav > li.newsletter-submit a,
+.form-newsletter-signup .contact-us .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit a,
+.brand-guidelines .navbar:not(.is-scrolled) .navbar-nav > li.btn a,
+.brand-guidelines .navbar:not(.is-scrolled) .newsletter-subscribe .navbar-nav > li.newsletter-submit a,
+.newsletter-subscribe .brand-guidelines .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit a,
+.brand-guidelines .navbar:not(.is-scrolled) .form-newsletter-signup .navbar-nav > li.newsletter-submit a,
+.form-newsletter-signup .brand-guidelines .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit a,
+.careers .navbar:not(.is-scrolled) .navbar-nav > li.btn a, .careers .navbar:not(.is-scrolled) .newsletter-subscribe .navbar-nav > li.newsletter-submit a,
+.newsletter-subscribe .careers .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit a,
+.careers .navbar:not(.is-scrolled) .form-newsletter-signup .navbar-nav > li.newsletter-submit a,
+.form-newsletter-signup .careers .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit a,
+.tax-job-department .navbar:not(.is-scrolled) .navbar-nav > li.btn a,
+.tax-job-department .navbar:not(.is-scrolled) .newsletter-subscribe .navbar-nav > li.newsletter-submit a,
+.newsletter-subscribe .tax-job-department .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit a,
+.tax-job-department .navbar:not(.is-scrolled) .form-newsletter-signup .navbar-nav > li.newsletter-submit a,
+.form-newsletter-signup .tax-job-department .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit a,
+.overview .navbar:not(.is-scrolled) .navbar-nav > li.btn a, .overview .navbar:not(.is-scrolled) .newsletter-subscribe .navbar-nav > li.newsletter-submit a,
+.newsletter-subscribe .overview .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit a,
+.overview .navbar:not(.is-scrolled) .form-newsletter-signup .navbar-nav > li.newsletter-submit a,
+.form-newsletter-signup .overview .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit a,
+.single-overview-box .navbar:not(.is-scrolled) .navbar-nav > li.btn a,
+.single-overview-box .navbar:not(.is-scrolled) .newsletter-subscribe .navbar-nav > li.newsletter-submit a,
+.newsletter-subscribe .single-overview-box .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit a,
+.single-overview-box .navbar:not(.is-scrolled) .form-newsletter-signup .navbar-nav > li.newsletter-submit a,
+.form-newsletter-signup .single-overview-box .navbar:not(.is-scrolled) .navbar-nav > li.newsletter-submit a,
+.page-landing .navbar .navbar-nav > li.btn a, .page-landing .navbar .newsletter-subscribe .navbar-nav > li.newsletter-submit a,
+.newsletter-subscribe .page-landing .navbar .navbar-nav > li.newsletter-submit a,
+.page-landing .navbar .form-newsletter-signup .navbar-nav > li.newsletter-submit a,
+.form-newsletter-signup .page-landing .navbar .navbar-nav > li.newsletter-submit a,
+.email-signature-generator .navbar .navbar-nav > li.btn a, .email-signature-generator .navbar .newsletter-subscribe .navbar-nav > li.newsletter-submit a,
+.newsletter-subscribe .email-signature-generator .navbar .navbar-nav > li.newsletter-submit a,
+.email-signature-generator .navbar .form-newsletter-signup .navbar-nav > li.newsletter-submit a,
+.form-newsletter-signup .email-signature-generator .navbar .navbar-nav > li.newsletter-submit a {
+    color: #fff
+}
+
+.page-landing .navbar, .email-signature-generator .navbar {
+    background: #FF9E1B
+}
+*/
+
+.navbar .navbar-menu-mobile {
+    display: none
+}
+
+@media (max-width: 992px) {
+    .navbar .navbar-menu-mobile {
+        float: right;
+        display: block;
+        margin-top: 12px
+    }
+}
+
+.navbar .navbar-menu-mobile ul {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+.navbar .navbar-menu-mobile ul li {
+    float: left
+}
+
+.navbar .navbar-menu-mobile ul li a {
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    display: block;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 10px 15px 8px 15px;
+    cursor: pointer;
+    background: #fafafa;
+    text-decoration: none;
+    color: #666
+}
+
+.navbar .navbar-menu-mobile ul li a:active {
+    background: #f0f0f0;
+    color: #689cd4
+}
+
+.sidebar-menu {
+    -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    border-right: 1px solid #e5e5e5;
+    font-weight: 300;
+    right: 0;
+    top: 65px;
+    position: fixed;
+    padding-bottom: 30px;
+    bottom: 0;
+    max-width: 400px;
+    width: 85%;
+    left: -85%;
+    z-index: 100;
+    background: #fff;
+    font-size: 1.2em;
+    overflow: auto;
+    display: none
+}
+
+.sidebar-menu.open {
+    left: 0%
+}
+
+@media (max-width: 992px) {
+    .sidebar-menu {
+        display: block
+    }
+}
+
+@media (max-width: 480px) {
+    .sidebar-menu {
+        max-width: 80%
+    }
+}
+
+.sidebar-menu h2 {
+    color: #689cd4;
+    font-size: 1.7em;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px
+}
+
+.sidebar-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 1.8em
+}
+
+.sidebar-menu ul li {
+    border-top: 1px solid #eee;
+    display: block;
+    position: relative
+}
+
+.sidebar-menu ul li:first-child {
+    border-top: none
+}
+
+.sidebar-menu ul li a {
+    display: block;
+    padding: 10px 15px;
+    color: #777;
+    text-decoration: none;
+    font-size: 1.4em
+}
+
+.sidebar-menu ul li a:hover {
+    background: #fafafa;
+    color: #000
+}
+
+.sidebar-menu ul li a > .icon {
+    -moz-transition: all 0.08s ease-in-out;
+    -o-transition: all 0.08s ease-in-out;
+    -webkit-transition: all 0.08s ease-in-out;
+    transition: all 0.08s ease-in-out;
+    position: absolute;
+    display: block;
+    right: 0;
+    top: 0;
+    font-size: 1.2em;
+    color: #ccc;
+    cursor: pointer;
+    text-align: right;
+    padding: 12px 10px
+}
+
+.sidebar-menu ul li a > .icon:hover {
+    color: #666
+}
+
+.sidebar-menu ul li.btn, .sidebar-menu ul .newsletter-subscribe li.newsletter-submit,
+.newsletter-subscribe .sidebar-menu ul li.newsletter-submit, .sidebar-menu ul .form-newsletter-signup li.newsletter-submit,
+.form-newsletter-signup .sidebar-menu ul li.newsletter-submit {
+    margin: 20px 15px 0
+}
+
+.sidebar-menu ul li.btn:hover, .sidebar-menu ul .newsletter-subscribe li.newsletter-submit:hover,
+.newsletter-subscribe .sidebar-menu ul li.newsletter-submit:hover,
+.sidebar-menu ul .form-newsletter-signup li.newsletter-submit:hover,
+.form-newsletter-signup .sidebar-menu ul li.newsletter-submit:hover {
+    border-color: #109fff;
+    background: #109fff
+}
+
+.sidebar-menu ul li.btn:active, .sidebar-menu ul .newsletter-subscribe li.newsletter-submit:active,
+.newsletter-subscribe .sidebar-menu ul li.newsletter-submit:active,
+.sidebar-menu ul .form-newsletter-signup li.newsletter-submit:active,
+.form-newsletter-signup .sidebar-menu ul li.newsletter-submit:active {
+    border-color: #2386c8;
+    background: #2386c8
+}
+
+.sidebar-menu ul li.btn a, .sidebar-menu ul .newsletter-subscribe li.newsletter-submit a,
+.newsletter-subscribe .sidebar-menu ul li.newsletter-submit a, .sidebar-menu ul .form-newsletter-signup li.newsletter-submit a,
+.form-newsletter-signup .sidebar-menu ul li.newsletter-submit a {
+    background-color: transparent;
+    color: #fff;
+    font-size: 1.6em
+}
+
+.sidebar-menu ul li.btn a:hover, .sidebar-menu ul .newsletter-subscribe li.newsletter-submit a:hover,
+.newsletter-subscribe .sidebar-menu ul li.newsletter-submit a:hover,
+.sidebar-menu ul .form-newsletter-signup li.newsletter-submit a:hover,
+.form-newsletter-signup .sidebar-menu ul li.newsletter-submit a:hover,
+.sidebar-menu ul li.btn a:active, .sidebar-menu ul .newsletter-subscribe li.newsletter-submit a:active,
+.newsletter-subscribe .sidebar-menu ul li.newsletter-submit a:active,
+.sidebar-menu ul .form-newsletter-signup li.newsletter-submit a:active,
+.form-newsletter-signup .sidebar-menu ul li.newsletter-submit a:active {
+    background-color: transparent
+}
+
+.sidebar-menu ul li.active > a {
+    border-color: #689cd4;
+    background: #fafafa;
+    color: #689cd4
+}
+
+.sidebar-menu ul li.expanded > a > .icon {
+    -moz-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+    text-align: left
+}
+
+.sidebar-menu ul ul {
+    display: none;
+    border-top: 1px solid #eee
+}
+
+.sidebar-menu ul ul li {
+    border-top: 1px dashed #e0e0e0
+}
+
+.sidebar-menu ul ul li a {
+    padding-left: 35px
+}
+
+.sidebar-menu ul ul ul li a {
+    padding-left: 70px
+}
+
+.sidebar-menu ul li.expanded > ul {
+    display: block
+}
+
+@media (max-width: 992px) {
+    .navbar {
+        -moz-box-shadow: 0 1px 5px 0 0.5;
+        -webkit-box-shadow: 0 1px 5px 0 0.5;
+        box-shadow: 0 1px 5px 0 0.5;
+        height: 65px;
+        background: #fff
+    }
+
+    .navbar .brand {
+        background: transparent url(/tpl/privatedeal/img/brand.png) no-repeat
+    }
+
+    .navbar .navbar-nav a {
+        color: #666
+    }
+
+    .navbar .navbar-nav .btn, .navbar .navbar-nav .newsletter-subscribe .newsletter-submit,
+    .newsletter-subscribe .navbar .navbar-nav .newsletter-submit, .navbar .navbar-nav .form-newsletter-signup .newsletter-submit,
+    .form-newsletter-signup .navbar .navbar-nav .newsletter-submit {
+        color: #fff;
+        border: 3px solid #FF9E1B
+    }
+
+    .navbar .brand, .navbar.is-fixed .brand {
+        float: left;
+        margin: 14px 0;
+        background: transparent url(/tpl/privatedeal/img/brand-mobile.png) no-repeat;
+        width: 40px;
+        height: 40px;
+        background-size: 100%
+    }
+
+    .page-landing .navbar .brand, .email-signature-generator .navbar .brand,
+    .page-landing .navbar.is-fixed .brand, .email-signature-generator .navbar.is-fixed .brand {
+        background-image: url(/tpl/privatedeal/img/brand-mobile-white.png);
+        background-repeat: no-repeat
+    }
+
+    .navbar-menu-mobile {
+        float: right;
+        display: block;
+        margin-top: 12px
+    }
+
+    .navbar-menu-mobile ul {
+        list-style: none;
+        margin: 0;
+        padding: 0
+    }
+
+    .navbar-menu-mobile li {
+        float: left
+    }
+
+    .navbar-menu-mobile a {
+        display: block;
+        font-size: 1.5em;
+        text-align: center;
+        padding: 10px 15px 8px 15px;
+        cursor: pointer;
+        background: #fafafa;
+        -moz-border-radius: 6px;
+        -webkit-border-radius: 6px;
+        border-radius: 6px;
+        text-decoration: none;
+        color: #666
+    }
+
+    .navbar-menu-mobile a.active {
+        background: #f0f0f0;
+        color: #689cd4
+    }
+}
+
+/*
+.overview-box-wrapper {
+    padding: 60px 0;
+    margin-left: -50px
+}
+
+@media (max-width: 768px) {
+    .overview-box-wrapper {
+        margin-left: 0
+    }
+}
+
+.overview-box-wrapper .container {
+    align-items: baseline;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    -webkit-align-items: baseline;
+    -webkit-display: flex;
+    -webkit-flex-direction: row;
+    -webkit-justify-content: center;
+    text-align: center;
+    padding: 0
+}
+
+@media (max-width: 768px) {
+    .overview-box-wrapper .container {
+        display: block
+    }
+}
+
+.overview-box-wrapper .container .overview-box {
+    flex-basis: 0;
+    flex-grow: 1;
+    margin: 0 0 0 50px;
+    padding: 0;
+    text-align: justify
+}
+
+@media (max-width: 768px) {
+    .overview-box-wrapper .container .overview-box {
+        padding: 0 50px;
+        max-width: 80%;
+        margin: 0 auto
+    }
+
+    .overview-box-wrapper .container .overview-box + .overview-box {
+        margin-top: 40px
+    }
+}
+
+@media (max-width: 480px) {
+    .overview-box-wrapper .container .overview-box {
+        max-width: 100%;
+        padding: 0 20px
+    }
+}
+
+.overview-box-wrapper .container .overview-box h3 {
+    text-align: center;
+    margin-bottom: 20px
+}
+
+.overview-box-wrapper .container .overview-box .overview-icon {
+    text-align: center
+}
+
+.overview-box-wrapper .container .overview-box .overview-icon i.icon {
+    color: #aaa;
+    font-size: 60px
+}
+
+.overview-box-wrapper .container .overview-box .overview-btn {
+    margin-top: 20px
+}
+
+.pdf-viewer {
+    padding: 30px 0 60px;
+    margin-bottom: -20px;
+    background: #e5e5e5
+}
+
+.wowbook-book-container {
+    z-index: 2
+}
+
+@media (max-width: 768px) {
+    .wowbook-book-container {
+        display: none
+    }
+}
+
+.wowbook-toolbar {
+    z-index: 1
+}
+
+@media (max-width: 768px) {
+    .wowbook-toolbar {
+        display: none
+    }
+}
+
+.wowbook-controls, .wowbook-share-buttons, .wowbook-nav {
+    background: #e5e5e5;
+    box-shadow: none
+}
+
+.wowbook-control, .wowbook-control:visited, .wowbook-control:active,
+.wowbook-control.remove-sticky-hover-style:hover {
+    color: #bbb
+}
+
+.wowbook-nav:active, .wowbook-nav:hover, .wowbook-control:active,
+.wowbook-control:hover {
+    background: none
+}
+
+.ribbon {
+    padding: 70px 0;
+    background: #eaeaea;
+    text-align: center
+}
+
+.ribbon:after {
+    clear: both;
+    display: table;
+    content: ''
+}
+
+@media (max-width: 768px) {
+    .ribbon {
+        padding: 50px 0
+    }
+}
+
+.ribbon h4, .ribbon h5 {
+    text-align: center;
+    color: #626262
+}
+
+@media (max-width: 768px) {
+    .ribbon h4, .ribbon h5 {
+        padding: 0
+    }
+}
+
+.ribbon h4 {
+    font-size: 32px;
+    padding: 0 100px;
+    margin: 0 auto 30px
+}
+
+@media (max-width: 768px) {
+    .ribbon h4 {
+        font-size: 24px;
+        padding: 0
+    }
+}
+
+.ribbon h5 {
+    font-weight: 300;
+    font-size: 26px;
+    margin: 20px auto 0
+}
+
+@media (max-width: 768px) {
+    .ribbon h5 {
+        font-size: 20px
+    }
+}
+
+.ribbon p {
+    font-size: 20px;
+    color: #999;
+    text-align: center;
+    padding: 0 130px;
+    margin: 10px 0 0
+}
+
+@media (max-width: 768px) {
+    .ribbon p {
+        padding: 0;
+        font-size: 16px
+    }
+}
+
+.ribbon .btn, .ribbon .newsletter-subscribe .newsletter-submit,
+.newsletter-subscribe .ribbon .newsletter-submit, .ribbon .form-newsletter-signup .newsletter-submit,
+.form-newsletter-signup .ribbon .newsletter-submit {
+    width: 30%;
+    margin-top: 10px
+}
+
+.ribbon .btn + .btn, .ribbon .newsletter-subscribe .newsletter-submit + .btn,
+.newsletter-subscribe .ribbon .newsletter-submit + .btn, .ribbon .form-newsletter-signup .newsletter-submit + .btn,
+.form-newsletter-signup .ribbon .newsletter-submit + .btn, .ribbon .newsletter-subscribe .btn + .newsletter-submit,
+.newsletter-subscribe .ribbon .btn + .newsletter-submit, .ribbon .newsletter-subscribe .newsletter-submit + .newsletter-submit,
+.newsletter-subscribe .ribbon .newsletter-submit + .newsletter-submit,
+.ribbon .form-newsletter-signup .btn + .newsletter-submit, .form-newsletter-signup .ribbon .btn + .newsletter-submit,
+.ribbon .form-newsletter-signup .newsletter-submit + .newsletter-submit,
+.form-newsletter-signup .ribbon .newsletter-submit + .newsletter-submit {
+    margin-left: 20px
+}
+
+@media (max-width: 768px) {
+    .ribbon .btn, .ribbon .newsletter-subscribe .newsletter-submit, .newsletter-subscribe .ribbon .newsletter-submit,
+    .ribbon .form-newsletter-signup .newsletter-submit, .form-newsletter-signup .ribbon .newsletter-submit {
+        width: 50%
+    }
+}
+
+@media (max-width: 480px) {
+    .ribbon .btn, .ribbon .newsletter-subscribe .newsletter-submit, .newsletter-subscribe .ribbon .newsletter-submit,
+    .ribbon .form-newsletter-signup .newsletter-submit, .form-newsletter-signup .ribbon .newsletter-submit {
+        font-size: .9em;
+        padding: 10px 15px;
+        width: 100%;
+        margin-top: 20px
+    }
+
+    .ribbon .btn + .btn, .ribbon .newsletter-subscribe .newsletter-submit + .btn,
+    .newsletter-subscribe .ribbon .newsletter-submit + .btn, .ribbon .form-newsletter-signup .newsletter-submit + .btn,
+    .form-newsletter-signup .ribbon .newsletter-submit + .btn, .ribbon .newsletter-subscribe .btn + .newsletter-submit,
+    .newsletter-subscribe .ribbon .btn + .newsletter-submit, .ribbon .newsletter-subscribe .newsletter-submit + .newsletter-submit,
+    .newsletter-subscribe .ribbon .newsletter-submit + .newsletter-submit,
+    .ribbon .form-newsletter-signup .btn + .newsletter-submit, .form-newsletter-signup .ribbon .btn + .newsletter-submit,
+    .ribbon .form-newsletter-signup .newsletter-submit + .newsletter-submit,
+    .form-newsletter-signup .ribbon .newsletter-submit + .newsletter-submit {
+        margin-left: 0
+    }
+}
+
+.ribbon .btn.btn-app-store, .ribbon .newsletter-subscribe .btn-app-store.newsletter-submit,
+.newsletter-subscribe .ribbon .btn-app-store.newsletter-submit,
+.ribbon .form-newsletter-signup .btn-app-store.newsletter-submit,
+.form-newsletter-signup .ribbon .btn-app-store.newsletter-submit,
+.ribbon .btn.btn-google-play, .ribbon .newsletter-subscribe .btn-google-play.newsletter-submit,
+.newsletter-subscribe .ribbon .btn-google-play.newsletter-submit,
+.ribbon .form-newsletter-signup .btn-google-play.newsletter-submit,
+.form-newsletter-signup .ribbon .btn-google-play.newsletter-submit {
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    background-color: transparent;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 160px;
+    height: 47px;
+    padding: 0;
+    border: none
+}
+
+.ribbon .btn.btn-app-store:hover, .ribbon .newsletter-subscribe .btn-app-store.newsletter-submit:hover,
+.newsletter-subscribe .ribbon .btn-app-store.newsletter-submit:hover,
+.ribbon .form-newsletter-signup .btn-app-store.newsletter-submit:hover,
+.form-newsletter-signup .ribbon .btn-app-store.newsletter-submit:hover,
+.ribbon .btn.btn-app-store:active, .ribbon .newsletter-subscribe .btn-app-store.newsletter-submit:active,
+.newsletter-subscribe .ribbon .btn-app-store.newsletter-submit:active,
+.ribbon .form-newsletter-signup .btn-app-store.newsletter-submit:active,
+.form-newsletter-signup .ribbon .btn-app-store.newsletter-submit:active,
+.ribbon .btn.btn-google-play:hover, .ribbon .newsletter-subscribe .btn-google-play.newsletter-submit:hover,
+.newsletter-subscribe .ribbon .btn-google-play.newsletter-submit:hover,
+.ribbon .form-newsletter-signup .btn-google-play.newsletter-submit:hover,
+.form-newsletter-signup .ribbon .btn-google-play.newsletter-submit:hover,
+.ribbon .btn.btn-google-play:active, .ribbon .newsletter-subscribe .btn-google-play.newsletter-submit:active,
+.newsletter-subscribe .ribbon .btn-google-play.newsletter-submit:active,
+.ribbon .form-newsletter-signup .btn-google-play.newsletter-submit:active,
+.form-newsletter-signup .ribbon .btn-google-play.newsletter-submit:active {
+    background-color: transparent;
+    border: none
+}
+
+.ribbon .btn.btn-app-store, .ribbon .newsletter-subscribe .btn-app-store.newsletter-submit,
+.newsletter-subscribe .ribbon .btn-app-store.newsletter-submit,
+.ribbon .form-newsletter-signup .btn-app-store.newsletter-submit,
+.form-newsletter-signup .ribbon .btn-app-store.newsletter-submit {
+    background-image: url("/tpl/privatedeal/img/download-app-store.svg")
+}
+
+.ribbon .btn.btn-google-play, .ribbon .newsletter-subscribe .btn-google-play.newsletter-submit,
+.newsletter-subscribe .ribbon .btn-google-play.newsletter-submit,
+.ribbon .form-newsletter-signup .btn-google-play.newsletter-submit,
+.form-newsletter-signup .ribbon .btn-google-play.newsletter-submit {
+    background-image: url("/tpl/privatedeal/img/download-google-play.png")
+}
+
+.ribbon.ribbon-primary {
+    background: #FF9E1B
+}
+
+.ribbon.ribbon-primary h4, .ribbon.ribbon-primary h5, .ribbon.ribbon-primary p {
+    color: #fff
+}
+
+.ribbon.ribbon-primary h4 a, .ribbon.ribbon-primary h5 a, .ribbon.ribbon-primary p a {
+    color: #fff
+}
+
+.home .ribbon .btn, .home .ribbon .newsletter-subscribe .newsletter-submit,
+.newsletter-subscribe .home .ribbon .newsletter-submit, .home .ribbon .form-newsletter-signup .newsletter-submit,
+.form-newsletter-signup .home .ribbon .newsletter-submit {
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8)
+}
+
+.home .ribbon.is-active .btn, .home .ribbon.is-active .newsletter-subscribe .newsletter-submit,
+.newsletter-subscribe .home .ribbon.is-active .newsletter-submit,
+.home .ribbon.is-active .form-newsletter-signup .newsletter-submit,
+.form-newsletter-signup .home .ribbon.is-active .newsletter-submit {
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1)
+}
+*/
+.cta-hero {
+    text-align: center;
+    margin-top: 40px;
+    line-height: 0.9em
+}
+
+.cta-hero:after {
+    clear: both;
+    display: table;
+    content: ''
+}
+/*
+.cta-hero .btn, .cta-hero .newsletter-subscribe .newsletter-submit,
+.newsletter-subscribe .cta-hero .newsletter-submit, .cta-hero .form-newsletter-signup .newsletter-submit,
+.form-newsletter-signup .cta-hero .newsletter-submit {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 1.3em;
+    padding: 18px 30px
+}
+
+.cta-hero .btn + .btn, .cta-hero .newsletter-subscribe .newsletter-submit + .btn,
+.newsletter-subscribe .cta-hero .newsletter-submit + .btn, .cta-hero .form-newsletter-signup .newsletter-submit + .btn,
+.form-newsletter-signup .cta-hero .newsletter-submit + .btn, .cta-hero .newsletter-subscribe .btn + .newsletter-submit,
+.newsletter-subscribe .cta-hero .btn + .newsletter-submit, .cta-hero .newsletter-subscribe .newsletter-submit + .newsletter-submit,
+.newsletter-subscribe .cta-hero .newsletter-submit + .newsletter-submit,
+.cta-hero .form-newsletter-signup .btn + .newsletter-submit, .form-newsletter-signup .cta-hero .btn + .newsletter-submit,
+.cta-hero .form-newsletter-signup .newsletter-submit + .newsletter-submit,
+.form-newsletter-signup .cta-hero .newsletter-submit + .newsletter-submit {
+    margin-left: 20px
+}
+
+@media (max-width: 480px) {
+    .cta-hero .btn + .btn, .cta-hero .newsletter-subscribe .newsletter-submit + .btn,
+    .newsletter-subscribe .cta-hero .newsletter-submit + .btn, .cta-hero .form-newsletter-signup .newsletter-submit + .btn,
+    .form-newsletter-signup .cta-hero .newsletter-submit + .btn, .cta-hero .newsletter-subscribe .btn + .newsletter-submit,
+    .newsletter-subscribe .cta-hero .btn + .newsletter-submit, .cta-hero .newsletter-subscribe .newsletter-submit + .newsletter-submit,
+    .newsletter-subscribe .cta-hero .newsletter-submit + .newsletter-submit,
+    .cta-hero .form-newsletter-signup .btn + .newsletter-submit, .form-newsletter-signup .cta-hero .btn + .newsletter-submit,
+    .cta-hero .form-newsletter-signup .newsletter-submit + .newsletter-submit,
+    .form-newsletter-signup .cta-hero .newsletter-submit + .newsletter-submit {
+        margin-left: 0px
+    }
+}
+
+@media (max-width: 768px) {
+    .cta-hero .btn, .cta-hero .newsletter-subscribe .newsletter-submit,
+    .newsletter-subscribe .cta-hero .newsletter-submit, .cta-hero .form-newsletter-signup .newsletter-submit,
+    .form-newsletter-signup .cta-hero .newsletter-submit {
+        background: rgba(0, 0, 0, 0.3)
+    }
+}
+
+@media (max-width: 480px) {
+    .cta-hero .btn, .cta-hero .newsletter-subscribe .newsletter-submit,
+    .newsletter-subscribe .cta-hero .newsletter-submit, .cta-hero .form-newsletter-signup .newsletter-submit,
+    .form-newsletter-signup .cta-hero .newsletter-submit {
+        font-size: .9em;
+        padding: 10px 15px
+    }
+}
+
+.cta-hero .btn.btn-app-store, .cta-hero .newsletter-subscribe .btn-app-store.newsletter-submit,
+.newsletter-subscribe .cta-hero .btn-app-store.newsletter-submit,
+.cta-hero .form-newsletter-signup .btn-app-store.newsletter-submit,
+.form-newsletter-signup .cta-hero .btn-app-store.newsletter-submit,
+.cta-hero .btn.btn-google-play, .cta-hero .newsletter-subscribe .btn-google-play.newsletter-submit,
+.newsletter-subscribe .cta-hero .btn-google-play.newsletter-submit,
+.cta-hero .form-newsletter-signup .btn-google-play.newsletter-submit,
+.form-newsletter-signup .cta-hero .btn-google-play.newsletter-submit {
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    background-color: transparent;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 160px;
+    height: 47px;
+    padding: 0;
+    border: none
+}
+
+.cta-hero .btn.btn-app-store:hover, .cta-hero .newsletter-subscribe .btn-app-store.newsletter-submit:hover,
+.newsletter-subscribe .cta-hero .btn-app-store.newsletter-submit:hover,
+.cta-hero .form-newsletter-signup .btn-app-store.newsletter-submit:hover,
+.form-newsletter-signup .cta-hero .btn-app-store.newsletter-submit:hover,
+.cta-hero .btn.btn-app-store:active, .cta-hero .newsletter-subscribe .btn-app-store.newsletter-submit:active,
+.newsletter-subscribe .cta-hero .btn-app-store.newsletter-submit:active,
+.cta-hero .form-newsletter-signup .btn-app-store.newsletter-submit:active,
+.form-newsletter-signup .cta-hero .btn-app-store.newsletter-submit:active,
+.cta-hero .btn.btn-google-play:hover, .cta-hero .newsletter-subscribe .btn-google-play.newsletter-submit:hover,
+.newsletter-subscribe .cta-hero .btn-google-play.newsletter-submit:hover,
+.cta-hero .form-newsletter-signup .btn-google-play.newsletter-submit:hover,
+.form-newsletter-signup .cta-hero .btn-google-play.newsletter-submit:hover,
+.cta-hero .btn.btn-google-play:active, .cta-hero .newsletter-subscribe .btn-google-play.newsletter-submit:active,
+.newsletter-subscribe .cta-hero .btn-google-play.newsletter-submit:active,
+.cta-hero .form-newsletter-signup .btn-google-play.newsletter-submit:active,
+.form-newsletter-signup .cta-hero .btn-google-play.newsletter-submit:active {
+    background-color: transparent;
+    border: none
+}
+
+@media (max-width: 480px) {
+    .cta-hero .btn.btn-app-store, .cta-hero .newsletter-subscribe .btn-app-store.newsletter-submit,
+    .newsletter-subscribe .cta-hero .btn-app-store.newsletter-submit,
+    .cta-hero .form-newsletter-signup .btn-app-store.newsletter-submit,
+    .form-newsletter-signup .cta-hero .btn-app-store.newsletter-submit,
+    .cta-hero .btn.btn-google-play, .cta-hero .newsletter-subscribe .btn-google-play.newsletter-submit,
+    .newsletter-subscribe .cta-hero .btn-google-play.newsletter-submit,
+    .cta-hero .form-newsletter-signup .btn-google-play.newsletter-submit,
+    .form-newsletter-signup .cta-hero .btn-google-play.newsletter-submit {
+        display: block;
+        margin: 30px auto -20px;
+        width: 110px;
+        height: 32px
+    }
+}
+
+.cta-hero .btn.btn-app-store, .cta-hero .newsletter-subscribe .btn-app-store.newsletter-submit,
+.newsletter-subscribe .cta-hero .btn-app-store.newsletter-submit,
+.cta-hero .form-newsletter-signup .btn-app-store.newsletter-submit,
+.form-newsletter-signup .cta-hero .btn-app-store.newsletter-submit {
+    background-image: url("/tpl/privatedeal/img/download-app-store.svg")
+}
+
+.cta-hero .btn.btn-google-play, .cta-hero .newsletter-subscribe .btn-google-play.newsletter-submit,
+.newsletter-subscribe .cta-hero .btn-google-play.newsletter-submit,
+.cta-hero .form-newsletter-signup .btn-google-play.newsletter-submit,
+.form-newsletter-signup .cta-hero .btn-google-play.newsletter-submit {
+    background-image: url("/tpl/privatedeal/img/download-google-play.png")
+}
+
+.row-bordered {
+    border-top: 1px solid #e8e8e8;
+    margin: 20px 0;
+    padding: 20px 0
+}
+
+.row-bordered:first-child {
+    border-top: none
+}
+*/
+
+.sidebar {
+    background-color: #f5f5f5;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    padding: 20px
+}
+
+.sidebar h3 {
+    margin: 0 0 10px;
+    line-height: normal;
+    color: #FF9E1B
+}
+
+.sidebar ul {
+    padding: 0;
+    margin: 0 0 30px;
+    list-style: none;
+    font-size: 1.0em
+}
+
+.sidebar ul li {
+    display: block
+}
+
+.sidebar ul li + li {
+    margin-top: 10px
+}
+
+.sidebar ul li a {
+    color: #666
+}
+
+.sidebar ul li a:hover {
+    color: #772583
+}
+
+.sidebar ul li a:active {
+    color: #772583
+}
+
+.sidebar .sidebar-widget div[class^="widget_"], .sidebar .sidebar-widget div[class * =" widget_"] {
+    margin-bottom: 20px;
+    clear: both
+}
+
+.menu-mobile {
+    overflow: hidden
+}
+
+.menu-mobile > ul {
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    overflow: auto;
+    display: block;
+    position: absolute;
+    bottom: 0%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 20px
+}
+
+.menu-mobile .login-options {
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    text-align: center;
+    padding: 20px;
+    overflow: auto
+}
+
+.menu-mobile .login-options .btn, .menu-mobile .login-options .newsletter-subscribe .newsletter-submit,
+.newsletter-subscribe .menu-mobile .login-options .newsletter-submit,
+.menu-mobile .login-options .form-newsletter-signup .newsletter-submit,
+.form-newsletter-signup .menu-mobile .login-options .newsletter-submit {
+    display: block;
+    width: 100%;
+    font-weight: 400;
+    font-size: .9em;
+    padding: 15px
+}
+
+.menu-mobile .login-options .btn.btn-primary, .menu-mobile .login-options .newsletter-subscribe .newsletter-submit,
+.newsletter-subscribe .menu-mobile .login-options .newsletter-submit,
+.menu-mobile .login-options .form-newsletter-signup .newsletter-submit,
+.form-newsletter-signup .menu-mobile .login-options .newsletter-submit {
+    margin-top: 30px
+}
+
+.menu-mobile .login-options p {
+    color: #999;
+    margin: 20px 0;
+    font-size: .9em
+}
+
+.menu-mobile .login-options a.toggle-login-options {
+    color: #999;
+    font-weight: 400;
+    display: inline-block;
+    margin-top: 20px
+}
+
+.menu-mobile.has-login-options > ul {
+    bottom: 100%
+}
+
+.menu-mobile.has-login-options .login-options {
+    top: 0%
+}
+
+/*
+
+body.has-video-playing main, body.has-video-playing footer, body.has-video-playing header,
+body.has-video-playing .cta-footer, body.has-video-playing .toast {
+    -webkit-filter: blur(5px);
+    filter: blur(5px)
+}
+
+body.has-video-playing .video-overlay {
+    -webkit-filter: none;
+    filter: none;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8)
+}
+
+body.has-video-playing .video-overlay .video-wrapper .video iframe {
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1)
+}
+
+.video-overlay {
+    -moz-transition: background 0.3s ease-in-out;
+    -o-transition: background 0.3s ease-in-out;
+    -webkit-transition: background 0.3s ease-in-out;
+    transition: background 0.3s ease-in-out;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    background: transparent;
+    overflow: hidden;
+    z-index: 9999999;
+    pointer-events: none
+}
+
+.video-overlay .btn-close {
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 2.4em;
+    pointer-events: auto
+}
+
+.video-overlay .btn-close:hover {
+    color: rgba(255, 255, 255, 0.8)
+}
+
+.video-overlay .btn-close:active {
+    color: #fff
+}
+
+.video-overlay .overlay-content {
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 100%;
+    z-index: 999;
+    position: absolute;
+    margin: 0 auto;
+    padding: 0 15px;
+    top: 50%;
+    left: 50%
+}
+
+.video-overlay .overlay-content .video-wrapper {
+    max-width: 60%;
+    position: relative;
+    margin: -10px auto 0
+}
+
+@media (max-width: 992px) {
+    .video-overlay .overlay-content .video-wrapper {
+        max-width: 80%
+    }
+}
+
+@media (max-width: 768px) {
+    .video-overlay .overlay-content .video-wrapper {
+        max-width: 95%
+    }
+}
+
+.video-overlay .overlay-content .video-wrapper .video {
+    position: relative;
+    padding-bottom: 56.4%;
+    overflow: hidden;
+    height: 0;
+    margin: 0;
+    z-index: 3;
+    pointer-events: auto
+}
+
+.video-overlay .overlay-content .video-wrapper .video iframe {
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -moz-transition-delay: 0.2s;
+    -o-transition-delay: 0.2s;
+    -webkit-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #333;
+    display: block
+}
+
+.newsletter-subscribe, .form-newsletter-signup {
+    position: relative;
+    display: block;
+    clear: both;
+    margin-bottom: 20px
+}
+
+.newsletter-subscribe .newsletter-form, .form-newsletter-signup .newsletter-form {
+    position: relative
+}
+
+.newsletter-subscribe .newsletter-input, .form-newsletter-signup .newsletter-input {
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    display: block
+}
+
+.newsletter-subscribe .newsletter-submit, .form-newsletter-signup .newsletter-submit {
+    -moz-border-radius: 0 6px 6px 0;
+    -webkit-border-radius: 0;
+    border-radius: 0 6px 6px 0;
+    padding: 9px 10px 9px;
+    position: absolute;
+    right: 0px;
+    top: 0
+}
+
+.newsletter-subscription h3 {
+    color: #FF9E1B;
+    margin: 20px auto 20px;
+    text-align: center;
+    max-width: 850px
+}
+
+@media (max-width: 480px) {
+    .newsletter-subscription h3 {
+        font-size: 1.4em;
+        margin: 20px 0;
+        max-width: unset
+    }
+
+    .newsletter-subscription h3:first-child {
+        margin-top: 0
+    }
+}
+
+.newsletter-subscription p {
+    text-align: center;
+    margin: 10px auto 0;
+    max-width: 850px
+}
+
+@media (max-width: 480px) {
+    .newsletter-subscription p {
+        max-width: unset
+    }
+}
+
+.newsletter-subscription .recent-posts-container {
+    margin-top: 60px;
+    font-size: 13px
+}
+
+.newsletter-subscription .recent-posts-container h4 {
+    font-size: 24px;
+    margin-bottom: 10px
+}
+
+.newsletter-subscription .recent-posts-container article {
+    border-bottom: 1px solid #ddd
+}
+
+.newsletter-subscription .recent-posts-container article:last-child {
+    border-bottom: 0;
+    margin-bottom: 0
+}
+
+.newsletter-subscription .recent-posts-container .thumbnail img {
+    width: 35%;
+    margin-right: 10px;
+    float: left
+}
+
+.newsletter-subscription .recent-posts-container .title {
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.newsletter-subscription .recent-posts-container .title a {
+    color: #333
+}
+
+.newsletter-subscription .recent-posts-container time {
+    color: #aaa
+}
+
+.newsletter-subscription .recent-posts-container .excerpt {
+    color: #626262;
+    font-size: 14px;
+    line-height: 18px
+}
+
+.newsletter-subscription .recent-posts-container .excerpt p {
+    margin: 0
+}
+*/
+
+html {
+    min-height: 100%;
+    height: 100%
+}
+
+body {
+    min-height: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 60px 0 0
+}
+
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+
+/*
+.taxonomy-images-the-terms {
+    margin: 10px 0;
+    padding: 0;
+    zoom: 1;
+}
+
+.taxonomy-images-the-terms:before,
+.taxonomy-images-the-terms:after {
+    clear: both;
+    content: "\0020";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.taxonomy-images-the-terms li,
+.taxonomy-images-the-terms a,
+.taxonomy-images-the-terms img {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.taxonomy-images-the-terms li {
+    list-style-type: none;
+    margin: 0 10px 10px 0;
+}
+
+*/

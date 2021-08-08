@@ -1,0 +1,59 @@
+@media (max-width: 1024px)
+{
+	.dashboard-right{width:83%;}
+}
+@media (min-width: 992px) and (max-width: 1199px) 
+{
+	
+}
+
+@media (max-width: 980px)
+{
+	
+}
+
+@media (max-width: 800px)
+{
+	
+	
+	
+}
+
+@media (max-width: 990px) and (min-width:768px)
+{
+	
+}
+
+
+@media (max-width: 768px)
+{
+	.lpadding{padding-left:15px;}
+	.rpadding{padding-right:15px;}
+	.dashboard-left{position:relative;width:100%;float:left;}
+	.dashboard-right{width:100%;float:left;}
+	.dashboard-content{padding:20px;}
+	.inner-content{width:100%;}
+	.bank-account .ba-heading{left:30%;}
+	.dashboard-menu ul li.active, .dashboard-menu ul li:hover{margin:0 auto 10px;}
+	.dashboard-menu ul li .dropdown-box{right:-43px;top:92px;}
+}
+
+@media (max-width: 767px) and (min-width:240px) 
+{
+	.lpadding{padding-left:15px;}
+	.rpadding{padding-right:15px;}
+	.dashboard-left{position:relative;width:100%;float:left;}
+	.dashboard-right{width:100%;float:left;}
+	.dashboard-content{padding:20px;}
+	.inner-content{width:100%;}
+	.bank-account .ba-heading{left:30%;}
+	.dashboard-menu ul li.active, .dashboard-menu ul li:hover{margin:0 auto 10px;}
+	.dashboard-menu ul li .dropdown-box{right:10px;top:92px;}
+	.offset-0{padding-right: 0;}
+	.width170{width:110px;}
+	.footer-left-label h3, .footer-right-label h3{width:100%;}
+	.footer-right-label h3 span, .footer-left-label h3 span.left-footer-currency{position: relative;right: 0;}
+	.daily-dashboard-list .room-rate h3 span.graph-label{position: relative;}
+	.footer-left-label h3 span.pull-right {display: block;width: 100%;padding: 10px 0}
+}
+

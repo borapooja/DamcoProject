@@ -1,0 +1,2235 @@
+@font-face {
+    font-family: 'apercu-regular';
+    src: url('../../fonts/apercu-regular.eot');
+    src: url('../../fonts/apercu-regular.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/apercu-regular.woff') format('woff'),
+         url('../../fonts/apercu-regular.woff2') format('woff2'),
+         url('../../fonts/apercu-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'apercu-bold';
+    src: url('../../../fonts/apercu-bold.eot');
+    src: url('../../../fonts/apercu-bold.eot?#iefix') format('embedded-opentype'),
+         url('../../../fonts/apercu-bold.woff') format('woff'),
+         url('../../../fonts/apercu-bold.woff2') format('woff2'),
+         url('../../../fonts/apercu-bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'roboto';
+    src: url('../../../fonts/roboto/Roboto-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Helvetica_Neue';
+    src: url('../../../fonts/HelveticaNeue.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'open-sans';
+    src: url('../../../fonts/open-sans/OpenSans-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'oswald';
+    src: url('../../../fonts/oswald/Oswald-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'raleway';
+    src: url('../../../fonts/raleway/Raleway-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'AndaleMono';
+    src: url('../../../fonts/AndaleMono.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AppleChancery';
+    src: url('../../../fonts/AppleChancery.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arial_Bold_Italic';
+    src: url('../../../fonts/Arial_Bold_Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arial_Narrow';
+    src: url('../../../fonts/Arial_Narrow.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'ArialNarrow';
+    src: url('../../../fonts/ArialNarrow.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ariblk';
+    src: url('../../../fonts/ariblk.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BAGHDAD';
+    src: url('../../../fonts/BAGHDAD.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bangla_MN';
+    src: url('../../../fonts/Bangla_MN.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bangla-mn-regular';
+    src: url('../../../fonts/bangla-mn-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BASKERVB';
+    src: url('../../../fonts/BASKERVB.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Big_Caslon_Medium';
+    src: url('../../../fonts/Big_Caslon_Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BodoniFLF-Bold';
+    src: url('../../../fonts/BodoniFLF-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BodoniFLF-BoldItalic';
+    src: url('../../../fonts/BodoniFLF-BoldItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BodoniFLF-Italic';
+    src: url('../../../fonts/BodoniFLF-BoldItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BodoniFLF-Roman';
+    src: url('../../../fonts/BodoniFLF-Roman.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bradley_hand_itc_tt_bold';
+    src: url('../../../fonts/bradley_hand_itc_tt_bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BrushScriptStd';
+    src: url('../../../fonts/BrushScriptStd.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Charter';
+    src: url('../../../fonts/Charter.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CochinBold';
+    src: url('../../../fonts/CochinBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ComicSansMSBold';
+    src: url('../../../fonts/ComicSansMSBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ComicSansMSRegular';
+    src: url('../../../fonts/ComicSansMSRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ComicSansMSRegular';
+    src: url('../../../fonts/ComicSansMSRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Copperplate_Regular';
+    src: url('../../../fonts/Copperplate_Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'cour';
+    src: url('../../../fonts/cour.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'courbd';
+    src: url('../../../fonts/courbd.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'courbi';
+    src: url('../../../fonts/courbi.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'couri';
+    src: url('../../../fonts/couri.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DecoType_Naskh_Regular';
+    src: url('../../../fonts/DecoType_Naskh_Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'DIN_Alternate_Bold';
+    src: url('../../../fonts/DIN_Alternate_Bold.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DINBold';
+    src: url('../../../fonts/DINBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Euphemia';
+    src: url('../../../fonts/Euphemia.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futur';
+    src: url('../../../fonts/futur.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gurmukhi-Normal';
+    src: url('../../../fonts/Gurmukhi-Normal.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Georgia';
+    src: url('../../../fonts/Georgia.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'georgia_bold';
+    src: url('../../../fonts/georgia_bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'georgia_italic';
+    src: url('../../../fonts/georgia_italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'georgia_bold_italic';
+    src: url('../../../fonts/georgia_bold_italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GillSansStd';
+    src: url('../../../fonts/GillSansStd.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Herculanum';
+    src: url('../../../fonts/Herculanum.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Hoefler_Text_Ornaments';
+    src: url('../../../fonts/Hoefler_Text_Ornaments.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Murasuit';
+    src: url('../../../fonts/Murasuit.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'impact';
+    src: url('../../../fonts/impact.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IowanOldSt_BT_Bold';
+    src: url('../../../fonts/IowanOldSt_BT_Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Luminari-Regular';
+    src: url('../../../fonts/Luminari-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Marion_Regular';
+    src: url('../../../fonts/Marion_Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'marion';
+    src: url('../../../fonts/marion.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MicrosoftSansSerifRegular';
+    src: url('../../../fonts/MicrosoftSansSerifRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MonotypeCorsiva_Regular';
+    src: url('../../../fonts/MonotypeCorsiva_Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'PhosphateInline';
+    src: url('../../../fonts/PhosphateInline.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Plantagenet_Cherokee';
+    src: url('../../../fonts/Plantagenet_Cherokee.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PT_Serif-Caption-Web-Regular';
+    src: url('../../../fonts/PT_Serif-Caption-Web-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PTM55F';
+    src: url('../../../fonts/PTM55F.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PTF55F';
+    src: url('../../../fonts/PTF55F.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PTM75F';
+    src: url('../../../fonts/PTM75F.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pacifico';
+    src: url('../../../fonts/Pacifico.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Savoye_LET_Plain';
+    src: url('../../../fonts/Savoye_LET_Plain.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SignPainter-HouseScript';
+    src: url('../../../fonts/SignPainter-HouseScript.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Silom';
+    src: url('../../../fonts/Silom.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Seravek';
+    src: url('../../../fonts/Seravek.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Skia_Regular';
+    src: url('../../../fonts/Skia_Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Snell_Roundhand_Script';
+    src: url('../../../fonts/Snell_Roundhand_Script.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'stixgeneral-bold';
+    src: url('../../../fonts/stixgeneral-bold.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'STIXGeneral-BoldItalic';
+    src: url('../../../fonts/STIXGeneral-BoldItalic.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'STIXGeneral-BoldItalic';
+    src: url('../../../fonts/STIXGeneral-BoldItalic.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'STIXGeneral-Italic';
+    src: url('../../../fonts/STIXGeneral-Italic.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'STIXGeneral-Regular';
+    src: url('../../../fonts/STIXGeneral-Regular.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SukhumvitSet-Medium';
+    src: url('../../../fonts/SukhumvitSet-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Superclarendon_Regular';
+    src: url('../../../fonts/Superclarendon_Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Times_Bold_Italic';
+    src: url('../../../fonts/Times_Bold_Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Times_New_Roman_Normal';
+    src: url('../../../fonts/Times_New_Roman_Normal.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'timesi';
+    src: url('../../../fonts/timesi.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TREBUCBD';
+    src: url('../../../fonts/TREBUCBD.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Trebuchet_MS_Bold_Italic';
+    src: url('../../../fonts/Trebuchet_MS_Bold_Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Trebuchet_MS';
+    src: url('../../../fonts/Trebuchet_MS.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TrebuchetMSItalic';
+    src: url('../../../fonts/TrebuchetMSItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Verdana_Italic';
+    src: url('../../../fonts/Verdana_Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Verdana';
+    src: url('../../../fonts/Verdana.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'verdanab';
+    src: url('../../../fonts/verdanab.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'verdanaz';
+    src: url('../../../fonts/verdanaz.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Webdings';
+    src: url('../../../fonts/Webdings.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Wingdings_2';
+    src: url('../../../fonts/Wingdings_2.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Wingdings3';
+    src: url('../../../fonts/Wingdings3.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'WingdingsRegular';
+    src: url('../../../fonts/WingdingsRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ZapfinoLinotypeOne';
+    src: url('../../../fonts/ZapfinoLinotypeOne.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Oxygen';
+    src: url('../../../fonts/oxygen/Oxygen.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Webfont: Lato-Regular */
+@font-face {
+    font-family: 'Lato';
+    src: url('../../../fonts/Lato/Lato-Regular.ttf') format('truetype'); 
+    font-style: normal;
+    font-weight: normal;
+}
+/* Webfont: Lato-Light */
+@font-face {
+    font-family: 'LatoLight';
+    src: url('../../../fonts/Lato/Lato-Light.eot'); /* IE9 Compat Modes */
+    src: url('../../../fonts/Lato/Lato-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../../../fonts/Lato/Lato-Light.woff2') format('woff2'), /* Modern Browsers */
+         url('../../../fonts/Lato/Lato-Light.woff') format('woff'), /* Modern Browsers */
+         url('../../../fonts/Lato/Lato-Light.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+@font-face {
+    font-family: 'Bitter';
+    src: url('../../../fonts/Bitter-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham-Light';
+    src: url('../../../fonts/gotham/Gotham-Light.otf'),
+    url('../../../fonts/gotham/GothamLight.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+@font-face {
+    font-family: 'Gotham-Regular';
+    src: url('../../../fonts/gotham/Gotham-regular.otf');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+font-family: 'Archer';
+font-style: normal;
+font-weight: normal; 
+src: url('../fonts/Archer-Book-Pro.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Times';
+    src: url('../../../fonts/unicode.timesu.ttf') format('truetype'); 
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Avenir-LT';
+    src: url('../../../fonts/Avenir-LT.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'SerifPro-Regular';
+    src: url('../../../fonts/SerifPro-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Karla-Regular';
+    src: url('../../../fonts/Karla-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Ubuntu-Regular';
+    src: url('../../../fonts/Ubuntu-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Clarice-Medium';
+    src: url('../../../fonts/Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Din';
+    src: url('../../../fonts/din/DINRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Cera-pro';
+    src: url('../../../fonts/CeraPro/CeraPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Canela-light';
+    src: url('../../../fonts/Canela/canela_light.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Droid-serif-regular';
+    src: url('../../../fonts/Droid-serif/DroidSerif.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Whitney-Light';
+    src: url('../../../fonts/Whitney-Light/Whitney-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Lora';
+    src: url('../../../fonts/Lora/Lora-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Brown-Light';
+    src: url('../../../fonts/Brown-Light/BrownLight Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'zapfhumnst_btroman';
+    src: url('../../../fonts/zapfhumnst-bt-bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Playfair-display';
+    src: url('../../../fonts/Playfair-display/PlayfairDisplaySC-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Sang-Bleu-Sunrise';
+    src: url('../../../fonts/Sang-Bleu-Sunrise/SangBleu-Sunrise.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Neue-Helvetica';
+    src: url('../../../fonts/Neue-Helvetica/HelveticaNeue-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Muli';
+    src: url('../../../fonts/Muli/Muli-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Spectral';
+    src: url('../../../fonts/Spectral/spectral-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NeuzeitSLTStd-Book';
+    src: url('../../../fonts/NeuzeitSLTStd-Book.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'zapfhumnst_btbold';
+    src: url('../../../fonts/zapfhumnst-bt-bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../../../fonts/Montserrat/Montserrat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ITCFranklinGothicStd';
+    src: url('../../../fonts/ITCFranklinGothicStd/ITCFranklinGothicStd-Book.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Euclid-Regular';
+    src: url('../../../fonts/Euclid-Regular/Euclid-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Acumin-Pro';
+    src: url('../../../fonts/Acumin-Pro.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Source-sans-pro';
+    src: url('../../../fonts/Source-sans-pro/SourceSansPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'FrutigerNext';
+    src: url('../../../fonts/FrutigerNextLTRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'FreightSansProBook-Regular';
+    src: url('../../../fonts/FreightSansProBook-Regular/Freight-Sans-Book.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'BrownStd-Light';
+    src: url('../../../fonts/BrownStd-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Humanst';
+    src: url('../../../fonts/Humanst.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Basic';
+    src: url('../../../fonts/Basic-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ITC-Avant';
+    src: url('../../../fonts/AvantGarde-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Crimson-text-400';
+    src: url('../../../fonts/Crimson-text-400.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Cabin';
+    src: url('../../../fonts/Cabin-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Josefin-Sans';
+    src: url('../../../fonts/JosefinSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Dosis-Regular';
+    src: url('../../../fonts/Dosis-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Helvetica-W01-Roman';
+    src: url('../../../fonts/Helvetica-W01-Roman.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+* , * ::before, * ::after {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup,
+menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+@-webkit-keyframes bounce {
+    0%, 100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    50% {
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes bounce {
+    0%, 100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    50% {
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+}
+
+.toggle-box-right {
+    position: fixed !important;
+    right: 0;
+    top: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    display: none;
+    z-index: 9;
+    -webkit-transition: top 0.7s ease-out;
+    -o-transition: top 0.7s ease-out;
+    transition: top 0.7s ease-out;
+}
+
+.close-box, .mobile-button {
+    background-color: #00a1ba;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    font-size: 1.4em;
+    line-height: 46px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0 30px;
+    z-index: 9;
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(00, 00, 00, 0.2);
+    box-shadow: 3px 3px 5px 0px rgba(00, 00, 00, 0.2);
+    cursor: pointer;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+.mobile-button {
+    display: block;
+    right: 0;
+    z-index: 99;
+}
+
+.mobile-box {
+    position: fixed;
+    top: 30px;
+    right: 0;
+    z-index: 9;
+    display: none;
+}
+
+.mobile-menu {
+    -webkit-transition: max-height 3s;
+    -o-transition: max-height 3s;
+    transition: max-height 3s;
+    overflow: hidden;
+    max-height: 300px;
+    display: none;
+}
+
+.mobile-menu nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    color: #00a1ba;
+    margin-top: 60px;
+    text-align: right;
+    margin-right: 20px;
+    padding-bottom: 20px;
+}
+
+.mobile-menu nav ul li a {
+    background: #00a1ba;
+    display: block;
+    border-radius: 25px;
+    margin-top: 10px;
+    line-height: 100%;
+    padding: 12px;
+    text-align: center;
+    -webkit-box-shadow: 2px 2px 3px 0px rgba(00, 00, 00, 0.2);
+    box-shadow: 2px 2px 3px 0px rgba(00, 00, 00, 0.2);
+    -webkit-transition: all 0.1s;
+    -o-transition: all 0.1s;
+    transition: all 0.1s;
+}
+
+.mobile-menu nav ul li a:hover {
+    -webkit-box-shadow: 2px 2px 3px 0px rgba(00, 00, 00, 0.0);
+    box-shadow: 2px 2px 3px 0px rgba(00, 00, 00, 0.0);
+    -webkit-transition: all 0.1s;
+    -o-transition: all 0.1s;
+    transition: all 0.1s;
+}
+
+.close-box i {
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+.close-box:hover, .mobile-button:hover {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.color-input-right {
+    position: relative;
+    color: #1e1e1e;
+    text-align: right;
+    white-space: nowrap;
+    dsiplay: flex;
+    margin-right: 20px;
+    padding-top: 65px;
+}
+
+.color-input-right p {
+    text-shadow: none;
+    font-size: 1.4em;
+    margin-bottom: 10%;
+    display: none;
+}
+
+.color-input-right form {
+    width: 180px
+}
+
+.color-input-right form input, .color-input-right form button {
+    width: 100%
+}
+
+.fixed:before {
+    content: 'Enter a new color!';
+    color: #1e1e1e;
+    text-align: left;
+    margin-bottom: 10%;
+    font-weight: 900;
+    content: "Enter a new color!";
+    color: #1e1e1e;
+    text-align: center;
+    margin-bottom: 10%;
+    font-weight: 900;
+    top: -30px;
+    position: relative;
+    font-size: 1.5em;
+    max-width: 100%;
+    background: -webkit-gradient(linear, left bottom, right top, from(#38438b), color-stop(#944b94), color-stop(#d75a88), color-stop(#ff7e71), color-stop(#ffb25f), to(#ffeb68));
+    background: -webkit-linear-gradient(left bottom, #38438b, #944b94, #d75a88, #ff7e71, #ffb25f, #ffeb68);
+    background: -o-linear-gradient(left bottom, #38438b, #944b94, #d75a88, #ff7e71, #ffb25f, #ffeb68);
+    background: linear-gradient(to right top, #38438b, #944b94, #d75a88, #ff7e71, #ffb25f, #ffeb68);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fixed {
+    position: fixed !important;
+    left: 0;
+    top: 30%;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+.fixed form {
+    margin: 0 20px;
+}
+
+.spacer {
+    background: #fff;
+    width: 100vw;
+    height: 30px;
+}
+
+.palettes {
+    padding: 30px 0;
+    background: #fff;
+}
+
+.palettes .wrapper {
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.color-palette {
+    background: #fff;
+    padding: 30px;
+    margin: 0px auto 0px;
+    text-align: center;
+}
+
+.color-palette-inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-bottom: 1px solid #e6eaee;
+    padding-bottom: 50px;
+}
+
+.color-palette:last-of-type .color-palette-inner {
+    border-bottom: none;
+}
+
+.color-box {
+    width: 120px;
+}
+
+.color {
+    width: 115px;
+    height: 115px;
+    border-radius: 7px;
+    margin: 0 auto;
+}
+
+.name {
+    text-transform: uppercase;
+    margin: 20px 0 0;
+    text-align: center;
+    color: #696969;
+    width: 120px;
+    display: inline-block;
+    letter-spacing: 1px;
+    line-height: 200%;
+    min-height: 20px;
+}
+
+.name::-moz-selection {
+    background: rgba(0, 201, 183, 0.4);
+    color: #1e1e1e;
+}
+
+.name::selection {
+    background: rgba(0, 201, 183, 0.4);
+    color: #1e1e1e;
+}
+
+.name::-moz-selection {
+    background: rgba(0, 201, 183, 0.4);
+    color: #1e1e1e;
+}
+
+.bottom .wrapper {
+    padding: 100px 8.33%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    z-index: 3;
+    position: relative;
+}
+
+.content-left, .content-right {
+    width: 50%;
+}
+
+.content-right img {
+    width: 90%;
+    -webkit-animation: bounce 3s ease-in-out infinite;
+    animation: bounce 3s ease-in-out infinite;
+    -webkit-transition: -webkit-transform 300ms cubic-bezier(0, 0, 0.3, 1);
+    transition: -webkit-transform 300ms cubic-bezier(0, 0, 0.3, 1);
+    -o-transition: transform 300ms cubic-bezier(0, 0, 0.3, 1);
+    transition: transform 300ms cubic-bezier(0, 0, 0.3, 1);
+    transition: transform 300ms cubic-bezier(0, 0, 0.3, 1), -webkit-transform 300ms cubic-bezier(0, 0, 0.3, 1);
+    will-change: transform;
+}
+
+.text-box {
+    width: 60%;
+}
+
+.sub {
+    margin: 30px 0;
+    font-size: 1.4em;
+    font-weight: 900;
+    text-shadow: 2px 3px 0px rgba(150, 150, 150, 1);
+}
+
+.bottom .sub {
+    line-height: 1.2;
+}
+
+.bottom h3 .small-head {
+    font-size: 0.6em;
+}
+
+.text-box p {
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+
+.text-box p a {
+    color: #2FFFAD;
+    border-bottom: 1px solid #2FFFAD;
+}
+
+.mini-spacer {
+    widh: 100%;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.44);
+    background-blend-mode: overlay;
+}
+
+footer {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 35px 8.33% 25px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.08);
+    background-blend-mode: overlay;
+    position: relative;
+    z-index: 9;
+}
+
+footer nav {
+    text-align: right;
+}
+
+.left-foot {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.left-foot .text {
+    margin-left: 30px;
+    font-size: 0.8em;
+}
+
+.right-foot {
+    width: 25%;
+}
+
+.text.colored {
+    color: #2FFFAD;
+}
+
+.text a {
+    padding-bottom: 3px;
+}
+
+.text a:hover {
+    border-bottom: 1px solid #2FFFAD;
+}
+
+.boxes {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    position: absolute;
+    /*opacity: 0;*/
+   /* z-index: -1;*/
+}
+
+.color-input form label.rLab {
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    border-radius: 100%;
+    width: 36px;
+    height: 36px;
+    line-height: 34px;
+    border: 1px solid transparent;
+}
+
+label.rLab::before {
+    content: " ";
+    position: absolute;
+}
+
+input[type="radio"] + label.rLab::before {
+    border-radius: 18px;
+}
+
+input[type="checkbox"]:checked + label.rLab,
+input[type="radio"]:checked + label.rLab {
+    background-color: rgba(189, 189, 189, 0.1);
+    border: 1px solid #fff;
+}
+
+label.rLab,
+label.rLab::before {
+    -webkit-transition: .25s all ease;
+    -o-transition: .25s all ease;
+    transition: .25s all ease;
+}
+
+.degtop {
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.degbot {
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.close {
+    display: inline-block;
+    text-align: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 1.5em;
+}
+
+.msg-box {
+    width: 50%;
+    max-width: 500px;
+    min-width: 100px;
+    background-color: #00a1ba;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px 0;
+    border-radius: 5px;
+    position: absolute;
+    top: -200px;
+    left: 0;
+    right: 0;
+}
+
+.msg {
+    font-size: 1.1em;
+}
+
+.imprint .bgnew3 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-image: -webkit-gradient(linear, left bottom, right top, from(#6d327c), color-stop(#485DA6), color-stop(#00a1ba), color-stop(#00BF98), to(#36C486));
+    background-image: -webkit-linear-gradient(left bottom, #6d327c, #485DA6, #00a1ba, #00BF98, #36C486);
+    background-image: -o-linear-gradient(left bottom, #6d327c, #485DA6, #00a1ba, #00BF98, #36C486);
+    background-image: linear-gradient(to right top, #6d327c, #485DA6, #00a1ba, #00BF98, #36C486);
+}
+
+.imprint .text-box {
+    width: 100%;
+}
+
+.imprint .color-input {
+    text-align: left;
+    line-height: 1.5;
+    margin-bottom: 80px;
+}
+
+.imprint h2 {
+    color: #fff;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width:1650px) {
+    .gradient .bg {
+        overflow-x: scroll;
+    }
+
+    .gradient .color-input form {
+        width: 30%;
+    }
+
+    .gradient .code-box {
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width:1500px) {
+    .palettes .wrapper {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width:1440px) {
+    .sign {
+        width: 75%
+    }
+
+    .box {
+        width: 50%;
+    }
+
+    .astro {
+        width: 40%;
+    }
+
+    .gradient .color-input form, .gradient .code-box {
+        width: 35%;
+    }
+}
+
+@media only screen and (max-height:650px) {}
+
+@media only screen and (max-width:1260px) {
+    .text-box {
+        width: 80%;
+    }
+
+    .header {
+        margin-bottom: 0px;
+    }
+
+    .color-input p {
+        margin-bottom: 30px;
+    }
+
+    .main .color-input h2 {
+        font-size: 2.625em;
+    }
+
+    .sign {
+        width: 70%;
+        font-size: 2.9em;
+    }
+
+    .sign {
+        margin: 0 auto 30px;
+    }
+}
+
+@media only screen and (max-width:1020px) {
+    h1 {
+        font-size: 2.625em;
+    }
+
+    h3 {
+        font-size: 2.925em;
+    }
+
+    .sign {
+        font-size: 2.8em;
+    }
+
+    .color-box, .name {
+        width: 105px;
+    }
+
+    .color {
+        width: 100px;
+        height: 100px;
+    }
+
+    .left-foot .logo {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .left-foot .logo img {
+        margin-right: 0px;
+        margin-bottom: 15px;
+    }
+
+    .right-foot {
+        width: auto;
+    }
+
+    .main .color-input h2 {
+        font-size: 2.525em;
+    }
+
+    .gradient .color-input form, .gradient .code-box {
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width:900px) {
+    .sign, .color-input {
+        width: 83.34%;
+    }
+
+    h1 {
+        font-size: 2.425em;
+    }
+
+    h3 {
+        font-size: 2.725em;
+    }
+
+    .sign {
+        font-size: 2.4em;
+    }
+
+    .text-box p {
+        font-size: 1em;
+    }
+
+    .gradient .color-input form, .gradient .code-box {
+        width: 55%;
+    }
+}
+
+@media only screen and (max-width:820px) {
+    .palettes .wrapper {
+        width: 90%;
+    }
+
+    .bottom .wrapper {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .content-left, .content-right {
+        width: 100%;
+    }
+
+    .content-right {
+        margin-top: 60px;
+    }
+
+    .content-left {
+        margin-top: 15px;
+    }
+
+    .text-box {
+        width: 70%;
+    }
+
+    .toggle-box-right {}
+
+    .mobile-box {
+        display: block;
+    }
+
+    .header nav, footer nav {
+        display: none;
+    }
+
+    .gradient .color-input form, .gradient .code-box {
+        width: 65%;
+    }
+
+    .cp-color-picker {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width:720px) {
+    .close-box, .mobile-button {
+        margin: 0 15px;
+    }
+}
+
+@media only screen and (max-width:700px) {
+    .astro {
+        width: 50%;
+    }
+
+    .color-input p {
+        margin-bottom: 12%;
+    }
+
+    .sign {
+        display: none;
+    }
+
+    .main .color-input h2 {
+        font-size: 2em;
+    }
+
+    h3 {
+        font-size: 2.325em;
+    }
+
+    .color-input input, .color-input button {
+        width: 250px;
+    }
+
+    .color-input form label {
+        margin-right: -85px;
+        padding-left: 65px;
+    }
+
+    .astro {
+        width: 80%;
+    }
+
+    .astro.right {
+        display: none;
+    }
+
+    .msg-box {
+        width: 70%;
+        position: fixed;
+        z-index: 99;
+        top: 100px;
+        -webkit-box-shadow: 10px 10px 14px 1px rgba(00, 00, 00, 0.2);
+        box-shadow: 10px 10px 14px 1px rgba(00, 00, 00, 0.2);
+    }
+
+    .gradient .color-input form, .gradient .code-box {
+        width: 75%;
+    }
+
+    .gradient form .labels {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .gradient .labels .label:first-of-type {
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .color-palette {
+        text-align: left;
+        margin: 0 0 0 20px;
+    }
+
+    .color-palette-inner {
+        border-bottom: 0px solid #e6eaee;
+        padding-bottom: 0px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .color-box {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: 100%;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    }
+
+    .color {
+        width: 250px;
+        height: 80px;
+        margin: 0 0 5px 0;
+        max-height: 18vh;
+    }
+
+    .name {
+        margin: 0px 0 0 20px;
+        width: 25%;
+    }
+
+    .text-box {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:530px) {
+    footer {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    .left-foot {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .left-foot .text {
+        margin-left: 0;
+        margin-top: 15px
+    }
+
+    .left-foot .text.colored, .left-foot .text.social {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .logo img {
+        max-width: 50px;
+    }
+
+    .logo-text {
+        font-size: 0.9em;
+    }
+
+    .left-foot .text.colored a {
+        display: block;
+        padding: 10px;
+    }
+
+    h1 {}
+
+    .main .color-input h2 {
+        line-height: 1.2;
+    }
+}
+
+@media only screen and (max-width:450px) {
+    .main .color-input h2 {
+        font-size: 1.6em;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .name {
+        margin: 0px 0 0 15px;
+        font-size: 0.9em;
+        width: 33%;
+    }
+
+    .msg-box {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width:350px) {
+    .color-input input, .color-input button {
+        width: 90%;
+    }
+
+    .color-input {
+        width: 100%;
+    }
+
+    .imprint .color-input {
+        margin: 0 20px;
+    }
+
+    .logo {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: end;
+        -ms-flex-align: end;
+        align-items: flex-end;
+    }
+
+    .logo img {
+        margin-bottom: 20px;
+    }
+
+    .color-palette {
+        margin: 0 0 0 0px;
+    }
+
+    .msg-box {
+        padding: 40px 0 30px;
+    }
+
+    .gradient .color-input form, .gradient .code-box {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width:300px) {
+    .palettes .wrapper {
+        width: 100%;
+    }
+
+    .color-input form label {
+        margin-right: -75px;
+        padding-left: 55px;
+    }
+
+    .gradient h1 {
+        padding: 0px 10px;
+    }
+}
+
+@media only screen and (max-height:800px) {
+    .sign {
+        font-size: 2.4em;
+        margin: 0 auto 25px;
+    }
+
+    h1 {
+        font-size: 2.425em;
+        margin-bottom: 15px;
+    }
+
+    .color-input p {
+        margin-bottom: 25px;
+    }
+
+    .color-input input {
+        margin-bottom: 8%;
+    }
+}
+
+@media only screen and (max-height:700px) {
+    .msg-box {
+        top: -150px;
+    }
+}
+
+@media only screen and (max-height:650px) {
+    .header {
+        margin-bottom: 10px;
+    }
+
+    .astro img {
+        width: 80%;
+    }
+
+    .astro.left img {
+        width: 70%;
+    }
+
+    .astro.right {
+        right: 0%;
+    }
+
+    .imprint .color-input {
+        margin-bottom: 40px;
+    }
+}
+
+@media only screen and (max-height:600px) {
+    .mobile-box {
+        right: auto;
+        left: 0;
+    }
+
+    .mobile-button {
+        right: auto;
+        left: 0;
+    }
+
+    .mobile-menu nav ul {
+        margin-right: 0;
+        margin-left: 15px;
+    }
+
+    .toggle-box-right {
+        top: 30px;
+    }
+
+    .header {
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+    }
+
+    .msg-box {
+        position: fixed;
+        top: 50px;
+    }
+
+    .sign {
+        width: 70%;
+        font-size: 3em;
+        margin: 0 auto 30px;
+    }
+
+    .main .color-input h2 {
+        font-size: 2.725em;
+    }
+}
+
+@media only screen and (max-height:550px) {
+    .astro {
+        width: 60%;
+    }
+
+    .logo img {
+        max-height: 70px;
+    }
+
+    .logo-text {
+        font-size: 0.8em;
+    }
+
+    nav {
+        font-size: 0.65em;
+    }
+
+    h1 {
+        font-size: 1.6em;
+    }
+
+    .color-input p {
+        margin-bottom: 8%;
+        font-size: 1.2em;
+    }
+
+    .color-input input {
+        margin-bottom: 8%;
+    }
+
+    .astro {
+        width: 60%;
+    }
+
+    .astro.right, .sign {
+        display: none;
+    }
+}
+
+@media only screen and (max-height:400px) {
+    .astro {
+        display: none;
+    }
+
+    .color-input p {
+        margin-bottom: 4%;
+    }
+
+    .color-input input {
+        margin-bottom: 5%;
+    }
+}
+
+#getContext {
+	position:relative;
+	display:block;
+	height: 300px;
+	background-color:#fff;
+}
+.slider {
+	background: #fff;
+	border:1px solid #000;
+	color: #333;
+	position: absolute;
+	top: 105px;
+	right: -1px;
+	width: 325px;
+	-webkit-transition-duration: 0.3s;
+	-moz-transition-duration: 0.3s;
+	-o-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+}
+#pvd-apps-container p {
+	line-height:1.25em;
+	color:#fff;
+}
+
+#pvd-apps-container  .pvd-container {
+	position:absolute;
+	font-size:12px;
+	z-index:8001;
+	text-align:left;
+	line-height:1.25em;
+	width: 24em;
+	transition:all .5s ease
+}
+
+#pvd-apps-container  .pvd-container.pvd-position-top,
+#pvd-apps-container  .pvd-container.pvd-position-top-left,
+#pvd-apps-container .pvd-container.pvd-position-top-right {
+	top:0px;
+}
+
+#pvd-apps-container .pvd-container.pvd-position-top-left {
+	left:30px
+}
+#pvd-apps-container .pvd-container.pvd-position-top-right {
+	right:30px
+}
+#pvd-apps-container .pvd-container.pvd-position-top {
+	left:50%;
+	margin-left:-12em
+}
+
+#pvd-apps-container .pvd-container.pvd-position-bottom,
+#pvd-apps-container .pvd-container.pvd-position-bottom-left,
+#pvd-apps-container .pvd-container.pvd-position-bottom-right {
+	bottom:0px;
+}
+
+#pvd-apps-container .pvd-container.pvd-position-left {
+	left:0
+}
+#pvd-apps-container .pvd-container.pvd-position-right {
+	right:0
+}
+#pvd-apps-container .pvd-container.pvd-position-bottom-left {
+	left:30px
+}
+#pvd-apps-container .pvd-container.pvd-position-bottom-right {
+	right:30px
+}
+#pvd-apps-container .pvd-container.pvd-position-bottom {
+	left:50%;
+	margin-left:-15em
+}
+/*Bottom Compact*/
+#pvd-apps-container .pvd-container.pvd-position-bottom.pvd-compact,
+#pvd-apps-container .pvd-container.pvd-position-bottom-left.pvd-compact,
+#pvd-apps-container .pvd-container.pvd-position-bottom-right.pvd-compact {
+	bottom:-3em;
+}
+
+#pvd-apps-container .pvd-container.pvd-position-left,
+#pvd-apps-container .pvd-container.pvd-position-right {
+	top:45%
+}
+
+#pvd-apps-container .pvd-container {
+	background:#444953;
+	color:#fff;
+	padding:0;
+	margin:0;
+	border:none;
+	-webkit-box-shadow:0 0 4px rgba(0,0,0,.5);
+	box-shadow:0 0 4px rgba(0,0,0,.5);
+	overflow:hidden
+}
+#pvd-apps-container .pvd-slider .offer,
+#pvd-apps-container .pvd-slider .offer-top {
+	/*background: #222;*/
+	/*color: #fff;*/
+	padding: .4em 1em;
+	/*height: 3em;*/
+	cursor: pointer;
+}
+
+#pvd-apps-container .offer h3 {
+	font-size: 1.75em;
+	font-weight: 500;
+	line-height:1.5em;
+	outline: none;
+	padding-left: 5px;
+	margin: 0;
+    font-family: inherit;
+    text-transform: none !important;
+}
+
+#pvd-container p
+{
+    font-family: inherit;
+}
+
+#pvd-apps-container .pvd-explanation {
+	color:#fff;
+	font-size:1.25em;
+	padding:1em;
+	text-align:center;
+}
+
+#pvd-apps-container .pvd-explanation.pvd-explanation-mid {
+	height: 0;
+	padding: 0;
+	transition:all .5s ease;
+}
+
+#pvd-apps-container .pvd-explanation-mid.pvd-open {
+	height:auto;
+	padding:1em;
+	transition:all .5s ease;
+}
+
+
+#pvd-apps-container .pvd-button {
+	display: inline-block;
+	margin:0 auto;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: vertical-align;
+	background-color : #fff;
+	color : #000;
+	padding:10px;
+	text-decoration:none;
+}
+
+/*carret*/
+#pvd-apps-container .rotate{
+	float:right;
+    -moz-transition: all  .5s ease;
+    -webkit-transition: all  .5s ease;
+    transition: all  .5s ease;
+}
+
+#pvd-apps-container .rotate.down{
+    -ms-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.center-block .btn.btn-primary {
+    border-color: #772583 !important;
+    background: #772583 !important;
+    padding: 15px 30px !important;
+    font-size: 20px !important;
+}
+
+.center-block .btn-primary:hover {
+    color: #fff !important;
+    background-color: #286090 !important;
+    border-color: #204d74 !important;
+}
+/*a#custom {
+    width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}*/
